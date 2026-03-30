@@ -1,0 +1,70 @@
+Scene Description: The driving scene depicted in these images exhibits the following characteristics:
+
+1. **Lane Markings**:
+   - Two clearly visible yellow centerlines separate opposing traffic directions, indicating a two-way street.
+   - A marked bus lane is visible on the right.
+   - No turning lane markings or other significant lane diversions are apparent.
+
+2. **Traffic Lights**:
+   - A traffic signal is visible in the distance near the end of the street. It is difficult to discern its current state due to distance and resolution.
+
+3. **Other Vehicles**:
+   - A black SUV on the left side of the street is executing a left turn, cutting across the lanes. Over the series of images, this vehicle progresses through its turn, entering the vehicle’s lane of travel momentarily.
+   - The silver sedan in the bus lane on the right appears stationary or moving slowly, possibly parked.
+   - Other vehicles along both sides of the street are parked.
+
+4. **Pedestrians**:
+   - A few pedestrians can be seen on the sidewalks along both sides of the street. None appear to be crossing the road during this sequence.
+
+5. **Driving Behavior**:
+   - The driver must slow down or prepare to stop to avoid colliding with the black SUV turning left into their path.
+   - Awareness of the traffic light at the intersection ahead is crucial, and the driver should adjust their speed based on the signal.
+   - No immediate hazards are evident on the current driving lane, but awareness of the bus lane's conditions is necessary.
+
+In conclusion, this driving scenario requires reduced speed to accommodate for the turning SUV and potential changes in the traffic light ahead.
+Object Description: 1. **Black SUV (Mid-left of the images)**:  
+   - **Location**: Near the center of the road, slightly to the left, turning from the left curb into the main lane.  
+   - **Action**: Appears to be performing a U-turn.  
+   - **Importance**: This vehicle is actively changing direction and crossing the driving lane, posing a potential collision risk. Close observation and preparation to yield or stop may be necessary.
+
+2. **Silver Sedan (Right curb in several images)**:  
+   - **Location**: Parked along the right curb.  
+   - **Action**: Stationary for now but may pull out into the lane.  
+   - **Importance**: Parked cars can start moving suddenly or open doors, potentially interrupting your driving path. Monitoring this sedan ensures preparedness for unexpected actions.
+
+3. **Pedestrian (Far right sidewalk)**:  
+   - **Location**: Walking on the sidewalk near the right side of the road.  
+   - **Action**: Walking alongside the street, direction unclear. May approach a crosswalk or step into the street.  
+   - **Importance**: Pedestrians have unpredictable behavior, and their movement can require sudden vehicle reactions. It’s critical to ensure this pedestrian does not step onto the road unexpectedly. 
+Intent Description: ### Updated Current Intent:  
+**Maintain the intent to stop smoothly at the intersection before the crosswalk.**
+
+---
+
+### Explanation for Maintaining the Intent:
+
+1. **Traffic Light Status:**  
+   The light remains red or yellow, necessitating a complete stop at the designated stop line. Continuing forward without stopping would be unsafe and a traffic violation. The vehicle's position allows for a safe and smooth stopping maneuver.
+
+2. **Position of the Ego Vehicle:**  
+   The ego vehicle remains at a distance from the stop line that allows for a gradual and controlled stop. There is no indication in the scene that requires an urgent change in the vehicle's intent.
+
+3. **Movement of Other Vehicles:**  
+   The black car ahead appears to be making a slow turn across the road (potentially completing a left or U-turn). Other vehicles in adjacent lanes are either slowing down or at a full stop. There is no pressure from surrounding vehicles that would prompt the need to change the intent.
+
+4. **Pedestrian Activity:**  
+   Pedestrians are visible on the sidewalks, but none have entered the crosswalk area. However, maintaining the intent to stop at the crosswalk ensures preparedness if a pedestrian enters unexpectedly.
+
+5. **Road and Lane Markings:**  
+   Lane markings clearly define that the ego vehicle is in a straight lane with no need for lane changes or adjustments. The crosswalk ahead is marked, signifying where the car should stop to remain in compliance with road rules.
+
+6. **Safety and Compliance:**  
+   Smoothly stopping at the crosswalk ensures the safety of pedestrians and other vehicles at the intersection while adhering to traffic rules. There are no immediate obstacles or changes that would require a shift in the vehicle's intent.
+
+---
+
+### Final Action Plan:  
+
+- **Deceleration:** Continue decelerating steadily and prepare to come to a thoughtful stop.  
+- **Monitor the Intersection:** Observe the black vehicle completing its turn, pedestrians on the sidewalk, and the state of the traffic
+Average Displacement Error: 6.815283512279995

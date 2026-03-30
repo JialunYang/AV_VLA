@@ -1,0 +1,57 @@
+Scene Description: This driving scene shows a well-illuminated urban road at nighttime with these observations:
+
+1. **Lane markings**: The lanes are clearly marked with dashed white lines, separating multiple lanes in both directions. Solid yellow lines and a curb with greenery are visible on the left, indicating the edge of the road.
+
+2. **Traffic direction**:
+   - Traffic is flowing smoothly in the opposite direction (on the right-hand side) with visible headlights.
+   - The lane the car is in appears clear with no immediate obstruction ahead.
+
+3. **Other vehicles**: 
+   - A stationary vehicle is parked ahead in the same lane as the driver's car. The vehicle's rear lights are visible, and it seems pulled over in a designated space along the curb.
+   - Vehicles in the opposite direction are moving steadily without congestion.
+
+4. **Pedestrians**:
+   - There are no visible pedestrians walking along the sidewalk or crossing the road in any of the frames.
+
+5. **Traffic lights**: 
+   - No traffic lights are visible along the route, suggesting this may be a routine stretch of the road without intersections. 
+
+6. **Driving decision points**:
+   - The stationary vehicle ahead necessitates a lane change to safely continue forward.
+   - There doesn’t appear to be imminent hazards like jaywalking or sudden traffic changes.
+
+Based on the scene, the car should utilize its blinker to signal a lane change, check for vehicles approaching from behind, and then merge into the adjacent lane to bypass the parked vehicle safely.
+Object Description: In this series of nighttime images, here are the road users to pay attention to and their details:
+
+1. **Black Car Ahead (Central, Left Lane)**
+   - **Location:** This car is directly ahead in the left lane within all the images, near the center of the frame.
+   - **Description:** The car appears parked on the left lane, which is typically meant for moving traffic. This is important because the parked car may obstruct traffic flow, and there is a need to maneuver around it safely while being cautious of incoming traffic from the adjacent lane.
+
+2. **Vehicles in Opposite Lane (Central to Right Side)**
+   - **Location:** The opposite lane, to the right side of the central divider, shows a steady stream of cars traveling in the opposite direction.
+   - **Description:** The vehicles have their headlights on, indicating movement in the opposite direction. It's important to pay attention to them to avoid confusion and ensure safe decisions when overtaking or maneuvering away from the parked car, as these vehicles are traveling close to your path.
+
+3. **Blue Car in Adjacent Lane (Right Lane)**
+   - **Location:** In the adjacent right lane, a blue car is visible in most images traveling alongside the vehicle's path.
+   - **Description:** This car is moving, and its proximity makes it critical to monitor its speed and intentions, especially when deciding to merge into or share the lane to safely avoid the parked vehicle ahead.
+
+Focusing on these road users ensures safe navigation under low-light traffic conditions.
+Intent Description: ### Current Intent:
+1. **Direction**: **Continue going straight**.
+2. **Speed**: **Maintain current speed with caution**.
+
+### Explanation:
+- **Lane Markings**: The lane markings remain clear and undisturbed, indicating that the current lane is suitable for continuing straight. There are no indications of divergence, merging, or deviation required.
+  
+- **Traffic Conditions**: Traffic remains moderate and evenly paced. Cars in neighboring lanes are abiding by the flow of traffic, with no erratic lane changes or sudden stops observed. The spacing between vehicles ahead is adequate to maintain the current safe speed.
+
+- **Surroundings**: The road is well-lit with no pedestrians visible on or near the travel lane. The shoulder and pavement appear clear of obstructions or hazards. Other lanes are being utilized normally, showing no immediate issues with the flow of traffic.
+
+### Current Decision:
+The **intent remains unchanged** to continue straight and maintain speed cautiously. The vehicle should keep monitoring for:
+- Abrupt slowdowns, lane changes, or stops from other vehicles.
+- Pedestrians or unexpected obstacles entering the road.
+- New road signs, intersections, or signals requiring changes in speed or direction. 
+
+The maintained caution ensures preparedness to react to sudden changes in road or traffic conditions.
+Average Displacement Error: 5.193931283004395

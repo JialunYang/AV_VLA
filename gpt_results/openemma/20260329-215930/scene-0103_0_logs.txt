@@ -1,0 +1,52 @@
+Scene Description: In these images, the following observations can be made:
+
+1. **Traffic Lights**: 
+   - The traffic light visible at the intersection remains consistently yellow, indicating that the car should prepare to stop or proceed with caution if the light is about to turn red.
+
+2. **Other Vehicles**: 
+   - Several cars can be seen moving forward in both directions of the street. Most vehicles in the car's lane are either just starting to move or proceeding at a steady pace. 
+   - On the opposing lane, cars are moving in the opposite direction at a normal pace.
+   - A black car moving directly ahead of the driver's vehicle can be seen gradually more forward over the sequence of images.
+
+3. **Pedestrians**:
+   - A number of pedestrians are visible on both sides of the road.
+   - Pedestrian activity appears to be restricted to crosswalks and sidewalks, with no visible jaywalking or pedestrians obstructing the lanes.
+
+4. **Lane Markings**:
+   - The lane markings are clearly visible and include double-yellow lines dividing the opposing traffic and white dashed lines defining the individual lanes.
+   - A "BUS" lane is marked on the right lane for buses.
+
+5. **Driving Actions**:
+   - The driver of the car should remain in their lane and prepare to slow down as they approach the yellow light, depending on its timing and distance from the intersection.
+   - Caution should be maintained as cars ahead are moving forward and may stop suddenly if the light turns red.
+
+### Recommendations:
+- The vehicle's current speed should likely be reduced in preparation to stop if needed.
+- Monitor the traffic light closely for further changes to red.
+- Maintain a safe distance from the vehicles ahead.
+- Stay aware of pedestrians near the crosswalks.
+Object Description: 1. **Pedestrians on the right sidewalk**:  
+   **Location**: Toward the lower-right corner of the images, walking along the right-side sidewalk near "House Thirteen" in the third to eighth frames.  
+   **Description**: These pedestrians are walking near the curb and could potentially cross the street or walk near the edge of the road. It's important to monitor their behavior to avoid any sudden or unexpected movements into the car's lane.
+
+2. **Black car in the middle lane**:  
+   **Location**: In the middle of the driving lane, slightly ahead of the vehicle, mostly visible from the second frame onwards.  
+   **Description**: This vehicle is driving slightly ahead and could accelerate, brake, or change lanes. Maintaining a safe following distance is essential to ensure there is enough time to react to its movements.
+
+3. **Pedestrians on the left corner near "The Hood"**:  
+   **Location**: Left side of the crossings and sidewalk in the beginning frames of the sequence, near the cafe seating.  
+   **Description**: They appear seated and stationary, but some might stand up and move unpredictably toward the crosswalk or into the street. Vigilance is essential to ensure they do not create hazardous situations for the vehicle.
+Intent Description: Based on the lane markings, the road layout, and the position of other vehicles and pedestrians:
+
+### Desired Intent of the Ego Car:
+1. **Direction**: The ego car should continue straight along its current lane.
+   - There are no indicators (such as turn-specific lane markings or turn signals from adjacent vehicles) suggesting a turn is required or expected.
+   - The markings guide a straightforward path, with no immediate need to change lanes or prepare for a turn.
+
+2. **Speed**: The ego car should **maintain its current speed**, potentially slowing down slightly if necessary.
+   - **Pedestrians**: There are pedestrians close to crosswalks, especially to the left, though none in the immediate lane currently. Monitoring pedestrian activity is crucial for safety in case someone enters the street.
+   - **Traffic**: The cars ahead are moving at a steady pace and provide enough following distance. There is no need to speed up, but readiness to slow down is advisable if traffic conditions change.
+
+### Summary:
+The ego car's desired action is to continue straight at the current speed while staying aware of nearby traffic and pedestrian movements. Prepare to slow down if required for safety.
+Average Displacement Error: 7.7533974895509035

@@ -1,0 +1,72 @@
+Scene Description: The scene shows a series of images captured by a front-view camera of a car slowly approaching an intersection over 5 seconds. Here's a breakdown of the driving scene:
+
+1. **Traffic Light:**
+   - The traffic light for the car's lane is consistently yellow throughout the sequence, indicating that the signal is preparing to change to red.
+   
+2. **Lane Markings:**
+   - The driving lane is clearly marked with two solid yellow centerlines, separating the two-way traffic.
+   - There are white lane markings separating the lanes from parking areas on both sides of the road.
+   - A "BUS" lane is marked on the right side with clear signage.
+
+3. **Other Vehicles:**
+   - A black SUV is in the process of turning left from the opposite direction towards the side street, cutting across the car’s lane. The SUV completes its turn in the final frames.
+   - A silver sedan is traveling ahead in the same direction, maintaining a steady pace within the lane.
+   - Parked cars are visible alongside both curbs of the street.
+
+4. **Pedestrians:**
+   - Pedestrians are seen walking on either side of the road on the sidewalks but are staying clear of the crosswalk or road itself. No pedestrian is crossing at this particular moment.
+
+5. **Driving Context:**
+   - Given the traffic light is yellow throughout the sequence, the car should be prepared to stop as it approaches the intersection.
+   - The turning black SUV requires attention to ensure no conflict arises during its maneuver.
+   - The car should maintain a safe distance from the silver sedan in front while being cautious of the potential light change to red.
+
+This scene requires careful observation of the traffic light and surrounding vehicles while planning for a potential stop at the intersection.
+Object Description: Here are three road users in the driving scene that should be carefully observed:
+
+### 1. **Black SUV Moving Left Across the Road**  
+   - **Location**: In the middle-left part of the image, the Black SUV is crossing from the left side to the right side of the driving lane.
+   - **What It's Doing**: The vehicle is either turning or making a U-turn across your intended driving path.
+   - **Why It's Important**: This vehicle is a hazard because it is crossing your driving lane, requiring you to slow down or stop to avoid a collision.
+
+### 2. **Pedestrians on the Right Sidewalk**  
+   - **Location**: On the right side of the image, a group of pedestrians is walking near the edge of the sidewalk. Some individuals may step into the street. 
+   - **What They're Doing**: They are walking along the sidewalk but may potentially enter the road or cross at the intersection.
+   - **Why It's Important**: As a driver, you need to monitor these pedestrians in case one steps into the road unexpectedly, especially near intersections or crosswalks.
+
+### 3. **Gray Sedan Advancing in the Middle Lane**  
+   - **Location**: In the central part of the image, this vehicle is moving forward in the middle lane ahead of your car.
+   - **What It's Doing**: This sedan is maintaining its speed and traveling ahead of you in the same lane.
+   - **Why It's Important**: This vehicle needs to be monitored to maintain safe following distance and react appropriately in case it slows down, brakes suddenly, or changes lanes.
+
+By remaining attentive to these road users, you can drive safely and avoid accidents in this urban driving environment.
+Intent Description: ### Updated Intent for the Ego Car:
+The intent **changes** to **prepare to stop smoothly** at the intersection, considering the traffic light’s transition, proximity to the intersection, and the behavior of other road users. The intention is to stop before the crosswalk unless the light transitions cause the ego car to be unable to safely stop without sudden braking.
+
+---
+
+### Explanation for the Intent Change:
+1. **Traffic Light**:
+   - The light is now yellow and may transition to red imminently. Based on the ego car's speed and distance to the intersection, it is safer to prepare to stop rather than proceed.
+   - Continuing to drive through a yellow light at this critical moment might lead to entering the intersection after the light turns red, which poses a safety hazard.
+
+2. **Vehicle Behavior**:
+   - Surrounding vehicles do not show signs of abrupt stops or lane shifts, allowing for a controlled stop by the ego car.
+   - There is no unpredictable behavior necessitating deviation from the updated intent.
+
+3. **Pedestrian Activity**:
+   - Pedestrians remain near the sidewalks and the crosswalk but do not yet pose an immediate risk. However, as the signal transitions, pedestrians may start to cross. Preparing to stop aligns with being ready to yield to them.
+
+4. **Environment and Lane Markings**:
+   - Road markings still indicate the ego car should continue straight, which reinforces the plan to stop and then proceed when the light turns green again.
+
+5. **Safety Margin and Timing**:
+   - The distance to the intersection provides enough space to decelerate safely and stop before reaching the crosswalk.
+
+---
+
+### Final Action Plan:
+- **Begin Safe Deceleration**: Immediately start reducing speed smoothly based on the anticipation that a red light will follow.
+- **Stop Before the Crosswalk**: Aim to stop the car at a safe location with full visibility of the intersection and crosswalk, allowing pedestrians the right of way while complying with traffic regulations.
+-
+Average Displacement Error: 4.6299865699438865

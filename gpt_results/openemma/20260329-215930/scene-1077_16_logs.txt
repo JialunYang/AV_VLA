@@ -1,0 +1,79 @@
+Scene Description: From the provided sequential images of the driving scene:
+
+1. **Traffic Conditions**: 
+   - The road is a multi-lane street, with visible lane markings separating the lanes.
+   - The lane markings on the left indicate parking or a shoulder area, while the middle and right lanes are designated for through traffic.
+   - Cars are present in the adjacent lanes moving in the same direction. There is a consistent flow of traffic to the right of the vehicle.
+
+2. **Traffic Lights and Signs**: 
+   - No traffic lights are visible in the scene. 
+   - A visible speed limit sign ("30") is observed on the left side of the road in some frames, reminding drivers of the zone's speed requirements.
+
+3. **Movements of Other Cars**: 
+   - The car immediately in front is traveling in the same lane as your vehicle, maintaining a slow, steady speed and staying in its lane.
+   - To the right, vehicles are traveling in parallel with steady flow, at what appears to be a similar pace.
+
+4. **Pedestrians and Sidewalks**: 
+   - There are no visible pedestrians crossing, walking, or standing near the car's path.
+   - A sidewalk is visible on the left side of the road, separated by a grass verge.
+
+5. **Surroundings and Lane Positioning**: 
+   - The vehicle is traveling along the leftmost lane (next to the curb), with the right-hand side lanes reserved for through traffic. The car is properly aligned within the lane.
+   - The road surface is wet, suggesting it may have rained recently—drivers should maintain extra caution under such conditions.
+
+6. **Driving Recommendation**:
+   - Since the road is dark and visibility is limited, it's essential to keep headlights switched on and maintain a proper following distance from the car ahead.
+   - Observe the speed limit indicated by the sign and be alert for potential hazards, such as pedestrians or sudden lane merges.
+
+###
+Object Description: In the images provided, here are two road users to pay attention to:
+
+1. **Road User: Vehicle directly ahead (center of the lane)**  
+   - **Location in Image:** Center of the image, ahead of your vehicle in the same lane.  
+   - **Description and Importance:** The vehicle ahead is traveling in the same direction and lane as your car. You should monitor its speed and movements, maintaining a safe following distance to avoid any potential collisions. Its actions, such as braking or lane changes, could directly affect your driving.
+
+2. **Road User: Vehicles in the adjacent right lane (towards the right side of the image)**  
+   - **Location in Image:** Right side of the image, traveling in the adjacent lane in the same direction.  
+   - **Description and Importance:** These vehicles are traveling on the main road; some may speed up, slow down, or change lanes ahead of you. Maintaining awareness of their positioning helps you anticipate sudden movements, such as lane changes or merging, to adjust your path or speed accordingly.
+
+3. **Road User: Pedestrian or stationary road workers near the left sidewalk (left side of the image)**  
+   - **Location in Image:** Left side of the image near the sidewalk or near construction barriers (visible in later frames).  
+   - **Description and Importance:** If a pedestrian or worker is present near the sidewalk, it’s essential to monitor their movement to ensure they don’t unexpectedly cross into your lane or enter an unsafe area on the road.
+Intent Description: **Updated Intent: Maintain the Current Intent (Continue Straight, Maintain Speed)**  
+
+---
+
+### Explanation of Current Intent:
+
+1. **Direction: Continue Straight:**  
+   - The lane markings remain clearly visible and guide the vehicle forward without requiring deviations to adjacent lanes.  
+   - The leading vehicle continues to drive steadily within its lane, signaling no immediate need for a lane change or turn.  
+
+2. **Speed: Maintain Current Speed:**  
+   - The gap between the vehicle and the car ahead remains safe and consistent, allowing for sufficient reaction time.  
+   - Traffic is behaving predictably, with no sudden stops or slowdowns requiring speed adjustment.  
+
+---
+
+### Observations Supporting the Current Intent:
+
+1. **Traffic Behavior and Lane Conditions:**  
+   - The leading vehicle and surrounding traffic maintain a steady pace, with no signs of braking or erratic behavior from other road users.  
+   - Lane markings guide the vehicle to keep a straight course while ensuring proper alignment within the lane.  
+
+2. **Environmental and Visibility Conditions:**  
+   - The road lighting remains consistent, ensuring good visibility of the lane and surrounding environment.  
+   - The absence of new objects, such as pedestrians or large obstacles, eliminates the need for deviation or speed changes.  
+
+3. **Absence of Alerts or Significant Changes:**  
+   - No new traffic signs, signals, or construction zones are visible in the updated frames.  
+   - Other vehicles in adjacent lanes maintain their course and spacing, reducing the likelihood of sudden events requiring evasive action.  
+
+---
+
+### Decision Rationale:
+
+The current driving conditions and surrounding factors are stable and predictable. The absence of hazards, new signals, or traffic changes supports the decision to **continue straight and maintain speed** without making directional or speed adjustments. Proceeding as intended ensures safety and allows the vehicle to efficiently navigate its route.  
+
+This intent will continue until any new hazard or signal in the environment dictates a change in strategy.  
+Average Displacement Error: 5.7317858048610475

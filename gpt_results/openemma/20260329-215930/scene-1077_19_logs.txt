@@ -1,0 +1,78 @@
+Scene Description: Analyzing the sequence of images step by step:
+
+1. **Scene Description (General)**
+   - It is nighttime, and the visibility is slightly reduced due to low light levels.
+   - The car is driving on a road with clear lane markings.
+   - The road has two lanes in each direction, separated by a median strip. The median strip is visible, with reflective dividers or street lamps on it.
+   - Headlights of other oncoming vehicles are visible in the opposite direction, indicating moderate traffic in the adjacent lanes.
+   - Red tail lights are visible directly ahead, signifying another car traveling in the same direction within the same lane.
+   - Streetlights and surrounding urban infrastructure (bus stops, signs, and lighted facilities) are visible along the side of the road.
+
+---
+
+### Detailed Highlights:
+#### Road Markings and Lane Behavior:
+- The lane markings are clear and visible, with solid double yellow lines on the left and dashed white lines between lanes on the right.
+- The car seems to be keeping to its lane consistently, maintaining a safe following distance from the black car ahead.
+
+#### Traffic Conditions:
+- The black car ahead maintains a consistent position, suggesting smooth-flowing traffic without abrupt braking or acceleration.
+- No signs suggest pedestrians crossing or other road users impacting the flow of traffic.
+- Cars in the opposite lanes are steadily moving in the other direction, suggesting light to moderate traffic. There’s no visible congestion in either direction.
+
+#### Traffic Lights:
+- Traffic signals are not visible in any of the frames, implying this section of the road is free of intersections or stop controls.
+
+#### Pedestrians or Hazards:
+- No pedestrians or cyclists are visible in any of the frames.
+- No road hazards such as obstacles, potholes, or debris are observed.
+
+---
+
+### Driving Recommendations:
+- Maintain the current speed while keeping a safe following distance from the black car ahead.
+- Stay in the current lane as no lane changes are required or allowed due to the presence of
+Object Description: In the driving scene, these are the road users worth paying attention to:
+
+### 1. **The car directly ahead**
+   - **Location:** Centred in the lane immediately ahead.
+   - **Description:** The car is driving in the same lane as the vehicle, maintaining its course. It's important to observe this car for any sudden changes in speed or direction, such as braking or merging, as it directly impacts the safe following distance and reaction time.
+
+### 2. **The vehicles in the opposite lane**
+   - **Location:** To the right in the image, on the other side of the median.
+   - **Description:** These vehicles are traveling in the opposite direction. While there is a median separating the lanes, it is important to remain aware of their position and any potential hazard, such as a vehicle swerving or crossing suddenly.
+
+### 3. **Pedestrian or Cyclist on the left sidewalk**
+   - **Location:** On the left near the sidewalk, unclear if it is a pedestrian or potential cyclist due to low visibility.
+   - **Description:** Any pedestrian or cyclist present on this side could potentially cross the road or enter the driving path. Additional attention is important when approaching bus stops or areas where pedestrians could emerge unexpectedly. 
+
+These observations help ensure safe navigation, proper spacing, and timely reaction to ensure the safety of all road users.
+Intent Description: ### Current Intent: **Maintain Current Intent (Continue Straight, Maintain Speed)**
+
+---
+
+### Explanation of Current Intent:
+
+1. **Traffic Behavior:**  
+   - The vehicle ahead maintains a consistent and predictable movement, staying in its lane with no signs of abrupt braking or lane changes.  
+   - There are no indications of erratic behavior or urgent actions required from adjacent vehicles or other road users.
+
+2. **Lane and Road Conditions:**  
+   - The lane markings ahead are clearly visible and well-defined, indicating a continuous and unobstructed path.  
+   - The road is free of obstacles or hazards, such as crash barriers, construction cones, or pedestrians crossing.  
+   - The road appears to curve gently, but the path is clear and does not require any course correction.
+
+3. **Environmental Factors:**  
+   - Lighting remains consistent, providing clear visibility of the road and surroundings.  
+   - There are no weather-related or external environmental conditions affecting driving behavior, such as rain, fog, or reduced visibility.
+
+4. **Safety Considerations:**  
+   - A safe following distance is being maintained between the front vehicle and my own, ensuring ample stopping time in case of an unexpected event.  
+   - Traffic in adjacent lanes is flowing steadily, and there are no signs of danger such as sudden lane merging or unpredictable maneuvers.
+
+---
+
+### Final Decision: **Maintain Current Intent**
+
+There are no observable changes in the driving environment, road conditions, or traffic behavior that necessitate altering the current intent. I will continue driving straight at a consistent and safe speed, ensuring stable movement and adherence to traffic safety norms.
+Average Displacement Error: 5.334163962171924

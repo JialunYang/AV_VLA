@@ -1,0 +1,69 @@
+Scene Description: The driving scene depicted in these images involves the following elements:
+
+1. **Lane Markings**:  
+   - The road consists of two lanes divided by a double yellow line, suggesting a bi-directional street. 
+   - The right curb lane has "BUS" written, indicating a dedicated bus/carpool lane or a bus stop zone.
+
+2. **Traffic Lights**:  
+   - No traffic lights are visible in this sequence of images.
+
+3. **Cars**:  
+   - There is a black SUV entering the driver's lane from the left-hand side (from the opposing direction or a perpendicular street). It appears to be making a U-turn or crossing the lane.
+   - A silver sedan parked along the right side of the street is beginning to merge into the lane ahead of the driver. This vehicle shows slight forward movement over time and is worth monitoring closely.
+   - Other stationary vehicles are parked along both sides of the street.
+
+4. **Pedestrians**:  
+   - A few pedestrians are visible walking along the sidewalks on both sides of the road. No pedestrians are crossing the street during this sequence.
+
+5. **Obstructions**:  
+   - No specific obstructions or large objects are present in the travel lane.
+
+### Key Observations for Driving:
+- The black SUV is the most dynamic threat, as it is moving across the driver's path. Precautions should be taken to allow it to finish its turn or maneuver.
+- The silver sedan merging into the lane may require slowing down or adjusting speed to allow a safe entry.
+- Lane markings clearly define the permitted lane, and the "BUS" lane should remain clear unless designated for shared traffic purposes.
+
+In summary, this is a moderately clear urban driving scenario with caution required for the black SUV and silver sedan's movements. The car should slow down, maintain lane discipline, and allow the visibly merging vehicles to complete their maneuvers safely.
+Object Description: 1. **Black Crossover (Left Side of the Images):**  
+   - **Location:** Positioned in the left lane, partially into the lane of travel, near the center of the road.  
+   - **Description:** This vehicle is turning or attempting to merge into the lane, potentially crossing into the path of the driver. It's critical to monitor its movements to avoid potential collisions, as its maneuver could intersect with your intended path.
+
+2. **Silver Sedan (Right Side of the Images):**  
+   - **Location:** Initially parked in the right lane, but by the later frames has begun pulling into the street, moving forward.  
+   - **Description:** This vehicle is leaving its parking spot and entering the flow of traffic. It’s important to track this car's behavior to anticipate whether it will move further into your lane or accelerate, causing a potential conflict.
+
+3. **Pedestrians (Far Left Sidewalk):**  
+   - **Location:** Walking on the far-left sidewalk in various frames.  
+   - **Description:** These pedestrians are near the edge of the street. While they are not currently in the path of travel, their proximity to the curb means they could potentially step into the road. Maintaining awareness is crucial to ensure their safety.
+Intent Description: **Maintain the Intent to Stop Smoothly at the Intersection Before the Crosswalk.**
+
+---
+
+### Explanation for Maintaining Intent:  
+
+1. **Black Car is Exiting the Path:**  
+   The black car has nearly completed its turn and is actively moving out of the ego vehicle’s lane. Its path indicates no further obstruction or conflict with the ego vehicle. Stopping smoothly allows the situation to clear without any disruption.
+
+2. **Pedestrian and Crosswalk Status:**  
+   There are no pedestrians in the crosswalk or approaching it in the current frames. This supports the continued intent to stop while keeping the crosswalk clear of the ego vehicle.
+
+3. **Intersection Context:**  
+   The intersection and its surroundings require a cautious and prepared approach. Stopping gives the driver time to assess any potential cross-traffic or sudden changes safely and avoids any unnecessary risks.
+
+4. **Lane and Traffic Conditions Maintain Stability:**  
+   All vehicles aside from the black car are shown to be operating in predictable traffic patterns. There are no lane changes or sudden vehicle entries that would necessitate altering the intent.
+
+5. **Compliance with Traffic Laws:**  
+   As the intersection is approaching and stopping is the primary rule of engagement at this location, maintaining the intent aligns with traffic rules and proper safety guidelines.
+
+6. **Dynamic Scene Remains Predictable:**  
+   The visual information suggests no sudden, unexpected developments (e.g., pedestrians running into the intersection or erratic vehicle behavior). Continuing with a controlled deceleration is the safest and most logical course of action.
+
+---
+
+### Final Action Plan:  
+
+- **Smooth Deceleration Toward Stop:** Gradually slow the vehicle to ensure a full stop before the crosswalk, avoiding any abrupt braking.  
+- **Monitor Vehicles and Pedestrians:** Continue observing the black car until it is fully out of the lane, and keep scanning the intersection for emerging hazards.  
+- **Reassess at Next Decision Point:** Once stopped, evaluate cross-traffic, pedestrian activity, and
+Average Displacement Error: 10.63236684531297
