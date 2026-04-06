@@ -1,0 +1,39 @@
+Sample token: 456ec36cb4a44ca78f36fbd90c0c34fa
+
+Final prompt snippet:
+Scene summary:
+[OBJ] class=class_8 pos=right depth=far occ=visible importance=0.6290 conf=0.2371
+[OBJ] class=class_8 pos=right depth=far occ=visible importance=0.5974 conf=0.2193
+[OBJ] class=class_8 pos=right depth=far occ=visible importance=0.5187 conf=0.4522
+[OBJ] class=class_8 pos=right depth=near occ=visible importance=0.5186 conf=0.4432
+[OBJ] class=class_7 pos=right depth=far occ=visible importance=0.5172 conf=0.2278
+[LANE] direction=left path_state=blocked conf=0.4492
+[RISK] region=left level=medium source=hidden conf=0.4492
+
+These are frames from a video taken by a camera mounted in the front of a car. The images are taken at a 0.5 second interval. 
+        The scene is described as follows: As an autonomous driving labeller, I would describe the current drive scene based on the provided image and the information about the camera's 0.5 second interval over the past 5 seconds.
+
+### Current Scene Description:
+
+1. **Traffic Lights:**
+   - There are no visible traffic lights in the image.
+
+2. **Movements of Other Cars:**
+   - A silver car is parked on the left side of the street, partially blocking the view of the sidewalk.
+   - A black car is driving ahead on the right side of the street, moving away from the viewer.
+   - There are no other vehicles directly in front. 
+        The identified critical objects are In the image, there are several road users that you should pay attention to as an autonomous driving labeller:
+
+1. **Silver Car (**
+   - **Location:** On the left side of the image, near the front.
+   - **Description:** This car is moving in the same direction as you. It is important to monitor its speed and direction to ensure safe overtaking or following.
+
+2. **Black Car (**
+   - **Location:** In the center of the image, slightly ahead.
+   - **Description:** This car is also moving in the same direction as you. It is crucial to keep a safe distance from this. 
+        The car's intent is Based on the current image and the information provided:
+
+1. **La
+
+Generated output snippet:
+[2.1, 0.1], [2.1, -0.1], [1.5, -0.1], [0.9, -0.4], [0.8, -0.2], [0.8, -0.1], [0.9, 0.0], [1.0, 0.6], [1.4, 0.0], [1.4, -0.0]

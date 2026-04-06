@@ -1,0 +1,34 @@
+Sample token: 9e7683e8586542a1b6032980c45f15ce
+
+Final prompt snippet:
+Scene summary:
+[OBJ] class=class_4 pos=right depth=mid occ=visible importance=0.7479 conf=0.4676
+[OBJ] class=class_7 pos=right depth=mid occ=occluded importance=0.7229 conf=0.4710
+[OBJ] class=class_8 pos=right depth=mid occ=occluded importance=0.7136 conf=0.7599
+[OBJ] class=class_5 pos=right depth=mid occ=occluded importance=0.7089 conf=0.5247
+[OBJ] class=class_6 pos=right depth=mid occ=occluded importance=0.6903 conf=0.4715
+[LANE] direction=right path_state=blocked conf=0.5079
+[RISK] region=left level=medium source=hidden conf=0.5079
+
+These are frames from a video taken by a camera mounted in the front of a car. The images are taken at a 0.5 second interval. 
+        The scene is described as follows: As an autonomous driving labeller, I would describe the current drive scene based on the provided image and the information from the past 5 seconds of camera footage. Here is the description:
+
+1. **Traffic Lights**: There are no visible traffic lights in the image.
+2. **Movements of Other Cars**: The image shows several cars parked along the street on both sides. There are no cars moving in the same lane as the viewer's vehicle.
+3. **Pedestrians**: There is one pedestrian visible on the sidewalk to the right of the image.
+4. **Lane Markingsings**: The road has clear double yellow lines in. 
+        The identified critical objects are In the image, there are several road users that you should pay attention to as an autonomous driving labeller:
+
+1. **Pedestrians**:
+   - **Location**: Sidewalks on both sides of the street.
+   - **Description**: Pedestrians are walking along the sidewalks. It is important to monitor them because they can suddenly cross the street or enter the pedestrian crossing area, which could pose a risk to your vehicle.
+
+2. **Bicyclists**:
+   - **Location**: Sidewalks and bike lanes.
+   - **Description**: There is a bicyclist riding on the sidewalk. Bicy. 
+        The car's intent is Based on the current image and the information provided:
+
+1. **Lane
+
+Generated output snippet:
+[0.8, -0.2], [0.8, -0.1], [0.9, 0.0], [1.0, 0.6], [1.4, 0.0], [1.4, -0.0], [1.7, -0.2], [1.9, 0.1], [2.1, -0.0], [2.3, -0.1]

@@ -1,0 +1,42 @@
+Sample token: b22fa0b3c34f47b6a360b60f35d5d567
+
+Final prompt snippet:
+Scene summary:
+[OBJ] class=class_8 pos=left depth=near occ=occluded importance=0.7911 conf=0.3194
+[OBJ] class=class_8 pos=right depth=near occ=visible importance=0.7306 conf=0.5759
+[OBJ] class=class_8 pos=center depth=near occ=visible importance=0.6952 conf=0.4881
+[OBJ] class=class_8 pos=right depth=mid occ=occluded importance=0.6890 conf=0.5364
+[OBJ] class=class_6 pos=left depth=mid occ=occluded importance=0.6845 conf=0.3803
+[LANE] direction=right path_state=blocked conf=0.4935
+[RISK] region=left level=low source=visible conf=0.4935
+
+These are frames from a video taken by a camera mounted in the front of a car. The images are taken at a 0.5 second interval. 
+        The scene is described as follows: As a autonomous driving labeller, I would describe the drive scene based on the provided image and the information about the camera's 0.5 second interval over the past 5 seconds.
+
+### Description of the Drive Scene:
+
+1. **Traffic Lights:**
+   - There are no visible traffic lights in the image.
+
+2. **Movements of Other Cars:**
+   - The black SUV in front of the car is moving forward.
+   - The silver car on the right side of the image is also moving forward.
+   - There are other cars parked along the street on both sides.
+
+3. **Pedestrians:**
+  . 
+        The identified critical objects are In the image, there are several road users that you should pay attention to as an autonomous driving labeller:
+
+1. **Black SUV (**
+   - **Location:** On the left side of the image, moving in the same direction as the viewer.
+   - **Description:** The black SUV is driving on the left side of the road, occupying the lane closest to the viewer. It is important to monitor its speed and direction to ensure safe overtaking or following.
+   - **Why it's important:** Ensuring safe overtaking or maintaining a safe distance is crucial to avoid collisions.
+
+2. **Silver Sedan (**
+   -. 
+        The car's intent is Based on the current image and the information provided:
+
+1. **Lane Markingings**: 
+
+Generated output snippet:
+[4.5, -0.1], [4.5, -0.1], [4.5, -0.1], [4.5, -0.1], [4.5, -0.1], [4.5, -0.1], [4.5, -0.1], [4.5, -0.1], [4.5, -0.1], [4.5, -0.1]

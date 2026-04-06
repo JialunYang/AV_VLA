@@ -1,0 +1,32 @@
+Sample token: 6d1d793b68b24165be5755a54054c82a
+
+Final prompt snippet:
+Scene summary:
+[OBJ] class=class_8 pos=right depth=near occ=occluded importance=0.5847 conf=0.4468
+[OBJ] class=class_1 pos=right depth=near occ=visible importance=0.5796 conf=0.5183
+[OBJ] class=class_0 pos=center depth=near occ=visible importance=0.5692 conf=0.6300
+[OBJ] class=class_0 pos=center depth=mid occ=occluded importance=0.5673 conf=0.5968
+[OBJ] class=class_1 pos=right depth=near occ=visible importance=0.5664 conf=0.5046
+[LANE] direction=right path_state=clear conf=0.5383
+[RISK] region=front level=high source=hidden conf=0.5383
+
+These are frames from a video taken by a camera mounted in the front of a car. The images are taken at a 0.5 second interval. 
+        The scene is described as follows: As an autonomous driving labeller, I would describe the current drive scene based on the provided image and the information from the previous 5 seconds:
+
+1. **Traffic Lights**: There are no visible traffic lights in the image.
+2. **Other Cars**: There is a car directly ahead of the vehicle, which appears to be maintaining a steady speed. There are no other cars in the immediate vicinity.
+3. **Pedestrians**: There are no pedestrians visible in the image.
+4. **Lane Markingsings**: The road has clear lane markings, including a double yellow line on the left side and solid white lines on the right side. 
+        The identified critical objects are In the image, there are several road users that you should pay attention to:
+
+1. **Car ahead**:
+   - **Location**: Directly ahead on the road.
+   - **Description**: The car is maintaining a safe distance from you. It is important to monitor its speed and direction to ensure you can react appropriately if it changes lanes or slows down suddenly.
+
+2. **Vehicles on the right**:
+   - **Location**: On the right side of the road.
+   - **Description**: These vehicles are also maintaining a safe distance from you. It is important to be aware of their speed and any potential lane changes,. 
+        The car's intent is Based on the curre
+
+Generated output snippet:
+[6.3, 0.0], [6.3, 0.0], [6.3, 0.0], [6.3, 0.0], [6.3, 0.0], [6.3, 0.0], [6.3, 0.0], [6.3, 0.0], [6.3, 0.0], [6.3, 0.0]

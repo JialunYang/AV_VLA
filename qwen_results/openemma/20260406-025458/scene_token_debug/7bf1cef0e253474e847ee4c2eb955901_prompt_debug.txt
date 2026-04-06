@@ -1,0 +1,31 @@
+Sample token: 7bf1cef0e253474e847ee4c2eb955901
+
+Final prompt snippet:
+Scene summary:
+[OBJ] class=class_7 pos=left depth=mid occ=visible importance=0.7304 conf=0.5417
+[OBJ] class=class_8 pos=left depth=mid occ=visible importance=0.6570 conf=0.4775
+[OBJ] class=class_5 pos=left depth=near occ=occluded importance=0.6544 conf=0.4138
+[OBJ] class=class_5 pos=left depth=mid occ=visible importance=0.6489 conf=0.4949
+[OBJ] class=class_6 pos=left depth=mid occ=visible importance=0.6479 conf=0.3976
+[LANE] direction=left path_state=clear conf=0.4807
+[RISK] region=front level=low source=hidden conf=0.4807
+
+These are frames from a video taken by a camera mounted in the front of a car. The images are taken at a 0.5 second interval. 
+        The scene is described as follows: As an autonomous driving labeller, I would describe the drive scene based on the provided images. Here is the description:
+
+1. **Traffic Lights**: There are no visible traffic lights in the images.
+2. **Movements of Other Cars**: The images show a car directly ahead, which appears to be moving at a steady pace. There are also other cars visible in the distance, but they are not in the immediate vicinity.
+3. **Pedestrians**: There are no pedestrians visible in the images.
+4. **Lane Markings**: The lane markings are clearly visible. The road is divided into multiple lanes, and the car is. 
+        The identified critical objects are In the image, there are several road users that you should pay attention to as an autonomous driving labeller:
+
+1. **Vehicles ahead**:
+   - **Location**: The vehicle directly ahead of you is located in the center of the image, slightly to the right.
+   - **Description**: This vehicle is moving in the same direction as you. It is important to monitor its speed and direction to ensure safe following and to react to any sudden braking or lane changes.
+   - **Why it's important**: Proper spacing and reaction time are crucial to avoid collisions and maintain a safe driving.
+
+2. **Vehicles on the opposite lane. 
+        The car's intent is Based on the curren
+
+Generated output snippet:
+[6.5, -0.1], [5.8, 0.1], [6.6, 0.0], [6.8, -0.0], [6.9, 0.0], [7.0, 0.2], [7.1, 0.1], [7.8, 0.1], [7.3, 0.1], [6.7, 0.1]

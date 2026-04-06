@@ -1,0 +1,35 @@
+Sample token: d0ecf474e0e64950aa265cd44b9c9d75
+
+Final prompt snippet:
+Scene summary:
+[OBJ] class=class_7 pos=left depth=near occ=occluded importance=0.6276 conf=0.4783
+[OBJ] class=class_7 pos=left depth=near occ=occluded importance=0.5877 conf=0.4985
+[OBJ] class=class_9 pos=left depth=near occ=occluded importance=0.5812 conf=0.4507
+[OBJ] class=class_7 pos=left depth=near occ=occluded importance=0.5782 conf=0.4945
+[OBJ] class=class_7 pos=left depth=near occ=occluded importance=0.5764 conf=0.5517
+[LANE] direction=left path_state=partially_blocked conf=0.4800
+[RISK] region=left level=medium source=hidden conf=0.4800
+
+These are frames from a video taken by a camera mounted in the front of a car. The images are taken at a 0.5 second interval. 
+        The scene is described as follows: As an autonomous driving labeller, I would describe the current drive scene based on the provided image and the past 5 seconds of camera footage. Here is the description:
+
+1. **Traffic Lights**: There are no visible traffic lights in the image.
+2. **Movements of Other Cars**:
+   - A silver car is parked on the left side of the street.
+   - A black car is driving ahead on the right side of the street.
+   - There are other cars parked along the street on both sides.
+3. **Pedestrians**: There are no pedestrians visible in the image.
+4. **Lane Markings**:. 
+        The identified critical objects are In the image, there are several road users that you should pay attention to as an autonomous driving labeller:
+
+1. **Silver Car (**
+   - **Location:** On the left side of the image, slightly ahead of the camera vehicle.
+   - **Description:** This car is moving in the same direction as the camera vehicle. It is important to monitor its speed and direction to ensure safe overtaking or following.
+
+2. **Black Car (**
+   - **Location:** On the right side of the image, slightly ahead of the camera vehicle.
+   - **Description:** This car is also moving in the same direction as the camera. 
+        The car's intent is Based on the current image and the information provided:
+
+Generated output snippet:
+[1.0, 0.0], [1.0, 0.0], [1.0, 0.0], [1.0, 0.0], [1.0, 0.0], [1.0, 0.0], [1.0, 0.0], [1.0, 0.0], [1.0, 0.0], [1.0, 0.0]

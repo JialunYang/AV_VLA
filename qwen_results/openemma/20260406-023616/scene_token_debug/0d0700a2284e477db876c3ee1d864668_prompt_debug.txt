@@ -1,0 +1,35 @@
+Sample token: 0d0700a2284e477db876c3ee1d864668
+
+Final prompt snippet:
+Scene summary:
+[OBJ] class=class_3 pos=left depth=far occ=visible importance=0.5891 conf=0.5046
+[OBJ] class=class_1 pos=center depth=far occ=visible importance=0.5827 conf=0.5252
+[OBJ] class=class_1 pos=center depth=far occ=visible importance=0.5825 conf=0.4315
+[OBJ] class=class_0 pos=left depth=mid occ=visible importance=0.5763 conf=0.5022
+[OBJ] class=class_1 pos=center depth=far occ=visible importance=0.5756 conf=0.4634
+[LANE] direction=straight path_state=partially_blocked conf=0.5092
+[RISK] region=left level=low source=visible conf=0.5092
+
+These are frames from a video taken by a camera mounted in the front of a car. The images are taken at a 0.5 second interval. 
+        The scene is described as follows: As a autonomous driving labeller, I have access to the front-view camera images of a car taken at a 0.5 second interval over the past 5 seconds. Based on the images, here is a description of the driving scene:
+
+1. **Traffic Lights**: There are no visible traffic lights in the images.
+2. **Movements of Other Cars**:
+   - A black SUV is driving in the left lane, moving forward.
+   - A silver sedan is parked on the right side of the road.
+   - Several other cars are visible in the distance, moving in both directions.
+3. **Pedestrians**:. 
+        The identified critical objects are In the driving scene, there are several road users that you should pay attention to:
+
+1. **Black SUV (Location: Left side of the image, near the center of the road)**:
+   - **Description**: The black SUV is driving in the same lane as you. It is important to monitor its speed and direction to ensure safe overtaking or merging.
+   - **Why it's important**: If the SUV is speeding or changing lanes abruptly, it could pose a risk of collision.
+
+2. **Silver Sedan (Location: Right side of the image, near the center of the road)**:
+   - **Description**: The. 
+        The car's intent is Based on the updated information, the intent to turn left remains unchanged. Here's the reasoning:
+
+1. **La
+
+Generated output snippet:
+[4.5, -0.2], [4.5, -0.1], [4.4, 0.1], [3.9, 0.0], [3.3, -0.1], [3.3, -0.1], [3.3, -0.1], [3.3, -0.1], [3.3, -0.1], [3.3, -0.1]

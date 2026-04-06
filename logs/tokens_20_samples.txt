@@ -1,0 +1,179 @@
+Sample 1: 0a0d6b8c2e884134a3b48df43d54c36a
+[OBJ] class=class_7 pos=left depth=mid occ=occluded importance=0.6117 conf=0.4152
+[OBJ] class=class_8 pos=right depth=mid occ=occluded importance=0.6030 conf=0.4991
+[OBJ] class=class_4 pos=left depth=far occ=visible importance=0.5898 conf=0.4013
+[OBJ] class=class_3 pos=right depth=mid occ=occluded importance=0.5815 conf=0.4811
+[OBJ] class=class_7 pos=left depth=mid occ=visible importance=0.5794 conf=0.4815
+[LANE] direction=straight path_state=partially_blocked conf=0.4871
+[RISK] region=right level=low source=visible conf=0.4871
+
+Sample 2: 0af0feb5b1394b928dd13d648de898f5
+[OBJ] class=class_0 pos=right depth=far occ=occluded importance=0.7487 conf=0.2997
+[OBJ] class=class_9 pos=right depth=near occ=occluded importance=0.7154 conf=0.3041
+[OBJ] class=class_9 pos=right depth=far occ=occluded importance=0.6844 conf=0.2374
+[OBJ] class=class_0 pos=right depth=far occ=occluded importance=0.6806 conf=0.3188
+[OBJ] class=class_8 pos=right depth=far occ=visible importance=0.6736 conf=0.5731
+[LANE] direction=straight path_state=blocked conf=0.4319
+[RISK] region=right level=medium source=visible conf=0.4319
+
+Sample 3: 0d0700a2284e477db876c3ee1d864668
+[OBJ] class=class_7 pos=center depth=mid occ=visible importance=0.6314 conf=0.4471
+[OBJ] class=class_1 pos=right depth=near occ=visible importance=0.6183 conf=0.4716
+[OBJ] class=class_9 pos=center depth=near occ=visible importance=0.6090 conf=0.5180
+[OBJ] class=class_6 pos=left depth=mid occ=visible importance=0.6078 conf=0.4502
+[OBJ] class=class_8 pos=center depth=near occ=visible importance=0.6019 conf=0.4400
+[LANE] direction=straight path_state=partially_blocked conf=0.4531
+[RISK] region=right level=medium source=hidden conf=0.4531
+
+Sample 4: 2e96e4ef43624c3d9ae8fd5526444fa8
+[OBJ] class=class_3 pos=left depth=near occ=visible importance=0.6961 conf=0.4448
+[OBJ] class=class_5 pos=right depth=near occ=visible importance=0.6864 conf=0.5078
+[OBJ] class=class_5 pos=center depth=far occ=visible importance=0.6715 conf=0.4610
+[OBJ] class=class_5 pos=right depth=near occ=visible importance=0.6679 conf=0.5239
+[OBJ] class=class_1 pos=left depth=near occ=visible importance=0.6654 conf=0.3467
+[LANE] direction=right path_state=partially_blocked conf=0.4740
+[RISK] region=front level=medium source=hidden conf=0.4740
+
+Sample 5: 3be9d2705879419f8f3afc08949dca57
+[OBJ] class=class_5 pos=center depth=mid occ=occluded importance=0.8726 conf=0.1808
+[OBJ] class=class_5 pos=right depth=far occ=occluded importance=0.8704 conf=0.1983
+[OBJ] class=class_5 pos=center depth=mid occ=occluded importance=0.8620 conf=0.1758
+[OBJ] class=class_4 pos=center depth=mid occ=occluded importance=0.8517 conf=0.1803
+[OBJ] class=class_5 pos=right depth=far occ=occluded importance=0.8431 conf=0.2131
+[LANE] direction=right path_state=partially_blocked conf=0.4355
+[RISK] region=left level=high source=visible conf=0.4355
+
+Sample 6: 4cf5d6c3f6ab42aab23f67b5a9782d1a
+[OBJ] class=class_8 pos=right depth=mid occ=visible importance=0.6491 conf=0.5203
+[OBJ] class=class_8 pos=right depth=mid occ=visible importance=0.5962 conf=0.4590
+[OBJ] class=class_8 pos=center depth=far occ=visible importance=0.5956 conf=0.6027
+[OBJ] class=class_8 pos=right depth=mid occ=visible importance=0.5877 conf=0.5047
+[OBJ] class=class_5 pos=right depth=far occ=visible importance=0.5857 conf=0.5518
+[LANE] direction=left path_state=clear conf=0.4726
+[RISK] region=front level=medium source=hidden conf=0.4726
+
+Sample 7: 5b03af7a953245b5a3b23191ed4da62a
+[OBJ] class=class_7 pos=center depth=mid occ=visible importance=0.6530 conf=0.6854
+[OBJ] class=class_2 pos=center depth=mid occ=visible importance=0.6281 conf=0.5884
+[OBJ] class=class_0 pos=center depth=near occ=visible importance=0.6268 conf=0.6425
+[OBJ] class=class_5 pos=center depth=mid occ=occluded importance=0.6158 conf=0.6623
+[OBJ] class=class_0 pos=center depth=near occ=visible importance=0.6155 conf=0.6452
+[LANE] direction=straight path_state=partially_blocked conf=0.5316
+[RISK] region=right level=high source=hidden conf=0.5316
+
+Sample 8: 5b77f438091b4d00a74d333ef2fe9033
+[OBJ] class=class_3 pos=left depth=near occ=occluded importance=0.6444 conf=0.4610
+[OBJ] class=class_7 pos=left depth=mid occ=occluded importance=0.6161 conf=0.4371
+[OBJ] class=class_5 pos=right depth=near occ=visible importance=0.6027 conf=0.4251
+[OBJ] class=class_5 pos=right depth=near occ=visible importance=0.6002 conf=0.4170
+[OBJ] class=class_5 pos=center depth=mid occ=visible importance=0.5875 conf=0.4870
+[LANE] direction=straight path_state=clear conf=0.4984
+[RISK] region=right level=low source=hidden conf=0.4984
+
+Sample 9: 6bfd42cf0aba4f1a94ec11fa43e2dd92
+[OBJ] class=class_3 pos=right depth=mid occ=occluded importance=0.6011 conf=0.4722
+[OBJ] class=class_3 pos=right depth=far occ=occluded importance=0.5896 conf=0.4532
+[OBJ] class=class_2 pos=center depth=mid occ=occluded importance=0.5870 conf=0.5017
+[OBJ] class=class_3 pos=right depth=far occ=occluded importance=0.5823 conf=0.4909
+[OBJ] class=class_2 pos=center depth=mid occ=occluded importance=0.5783 conf=0.5618
+[LANE] direction=right path_state=blocked conf=0.5055
+[RISK] region=right level=medium source=hidden conf=0.5055
+
+Sample 10: 6d1d793b68b24165be5755a54054c82a
+[OBJ] class=class_8 pos=right depth=near occ=occluded importance=0.5847 conf=0.4468
+[OBJ] class=class_1 pos=right depth=near occ=visible importance=0.5796 conf=0.5183
+[OBJ] class=class_0 pos=center depth=near occ=visible importance=0.5692 conf=0.6300
+[OBJ] class=class_0 pos=center depth=mid occ=occluded importance=0.5673 conf=0.5968
+[OBJ] class=class_1 pos=right depth=near occ=visible importance=0.5664 conf=0.5046
+[LANE] direction=right path_state=clear conf=0.5383
+[RISK] region=front level=high source=hidden conf=0.5383
+
+Sample 11: 7bf1cef0e253474e847ee4c2eb955901
+[OBJ] class=class_7 pos=left depth=mid occ=visible importance=0.7304 conf=0.5417
+[OBJ] class=class_8 pos=left depth=mid occ=visible importance=0.6570 conf=0.4775
+[OBJ] class=class_5 pos=left depth=near occ=occluded importance=0.6544 conf=0.4138
+[OBJ] class=class_5 pos=left depth=mid occ=visible importance=0.6489 conf=0.4949
+[OBJ] class=class_6 pos=left depth=mid occ=visible importance=0.6479 conf=0.3976
+[LANE] direction=left path_state=clear conf=0.4807
+[RISK] region=front level=low source=hidden conf=0.4807
+
+Sample 12: 7ca3502caf394d6d9c0a80b822b3ff48
+[OBJ] class=class_1 pos=right depth=near occ=occluded importance=0.7672 conf=0.6791
+[OBJ] class=class_1 pos=right depth=near occ=visible importance=0.7458 conf=0.6158
+[OBJ] class=class_8 pos=left depth=near occ=occluded importance=0.7386 conf=0.5801
+[OBJ] class=class_9 pos=center depth=mid occ=occluded importance=0.6904 conf=0.5073
+[OBJ] class=class_1 pos=left depth=near occ=occluded importance=0.6746 conf=0.5328
+[LANE] direction=left path_state=partially_blocked conf=0.5524
+[RISK] region=left level=low source=hidden conf=0.5524
+
+Sample 13: 7f49d07afdf64212a4eea699cb5ab17c
+[OBJ] class=class_2 pos=right depth=mid occ=occluded importance=0.7184 conf=0.5711
+[OBJ] class=class_8 pos=right depth=near occ=visible importance=0.6741 conf=0.5666
+[OBJ] class=class_4 pos=right depth=mid occ=occluded importance=0.6696 conf=0.5303
+[OBJ] class=class_0 pos=left depth=near occ=occluded importance=0.6678 conf=0.5102
+[OBJ] class=class_0 pos=right depth=near occ=visible importance=0.6633 conf=0.5514
+[LANE] direction=right path_state=partially_blocked conf=0.5120
+[RISK] region=left level=low source=visible conf=0.5120
+
+Sample 14: 7f87e737dad642d9aff78a7fe12ce194
+[OBJ] class=class_0 pos=left depth=near occ=visible importance=0.7195 conf=0.3671
+[OBJ] class=class_7 pos=left depth=far occ=visible importance=0.6886 conf=0.4023
+[OBJ] class=class_3 pos=right depth=near occ=visible importance=0.6729 conf=0.4533
+[OBJ] class=class_4 pos=right depth=far occ=visible importance=0.6492 conf=0.5170
+[OBJ] class=class_9 pos=left depth=mid occ=visible importance=0.6367 conf=0.5115
+[LANE] direction=straight path_state=partially_blocked conf=0.4866
+[RISK] region=front level=medium source=hidden conf=0.4866
+
+Sample 15: 8c8755ebb0bf4c519416323acad6cea1
+[OBJ] class=class_3 pos=right depth=mid occ=occluded importance=0.7714 conf=0.2835
+[OBJ] class=class_3 pos=left depth=mid occ=occluded importance=0.7653 conf=0.2765
+[OBJ] class=class_2 pos=left depth=mid occ=occluded importance=0.7599 conf=0.3657
+[OBJ] class=class_2 pos=left depth=near occ=occluded importance=0.7511 conf=0.3444
+[OBJ] class=class_2 pos=left depth=near occ=occluded importance=0.7506 conf=0.3272
+[LANE] direction=right path_state=blocked conf=0.4920
+[RISK] region=left level=high source=hidden conf=0.4920
+
+Sample 16: 8e9c2cba0ee74056aa3746e8391d54a9
+[OBJ] class=class_6 pos=center depth=near occ=occluded importance=0.6311 conf=0.4591
+[OBJ] class=class_6 pos=center depth=near occ=occluded importance=0.6263 conf=0.4711
+[OBJ] class=class_6 pos=center depth=far occ=visible importance=0.5674 conf=0.5133
+[OBJ] class=class_1 pos=center depth=far occ=occluded importance=0.5662 conf=0.4101
+[OBJ] class=class_6 pos=center depth=near occ=occluded importance=0.5540 conf=0.4990
+[LANE] direction=right path_state=clear conf=0.4568
+[RISK] region=front level=low source=visible conf=0.4568
+
+Sample 17: 9e7683e8586542a1b6032980c45f15ce
+[OBJ] class=class_4 pos=right depth=mid occ=visible importance=0.7479 conf=0.4676
+[OBJ] class=class_7 pos=right depth=mid occ=occluded importance=0.7229 conf=0.4710
+[OBJ] class=class_8 pos=right depth=mid occ=occluded importance=0.7136 conf=0.7599
+[OBJ] class=class_5 pos=right depth=mid occ=occluded importance=0.7089 conf=0.5247
+[OBJ] class=class_6 pos=right depth=mid occ=occluded importance=0.6903 conf=0.4715
+[LANE] direction=right path_state=blocked conf=0.5079
+[RISK] region=left level=medium source=hidden conf=0.5079
+
+Sample 18: 9ee4020153674b9e9943d395ff8cfdf3
+[OBJ] class=class_3 pos=left depth=far occ=visible importance=0.8806 conf=0.4126
+[OBJ] class=class_3 pos=left depth=far occ=visible importance=0.8803 conf=0.4346
+[OBJ] class=class_3 pos=left depth=far occ=visible importance=0.8772 conf=0.3888
+[OBJ] class=class_3 pos=left depth=far occ=visible importance=0.8723 conf=0.3704
+[OBJ] class=class_3 pos=left depth=far occ=visible importance=0.8709 conf=0.4519
+[LANE] direction=right path_state=partially_blocked conf=0.5148
+[RISK] region=left level=low source=hidden conf=0.5148
+
+Sample 19: 37bed8d646cd4f0f8eac519794dd8bd7
+[OBJ] class=class_9 pos=center depth=near occ=visible importance=0.6724 conf=0.3289
+[OBJ] class=class_9 pos=center depth=near occ=visible importance=0.6685 conf=0.3546
+[OBJ] class=class_9 pos=center depth=near occ=visible importance=0.6644 conf=0.3264
+[OBJ] class=class_9 pos=center depth=mid occ=visible importance=0.6564 conf=0.3873
+[OBJ] class=class_9 pos=center depth=mid occ=visible importance=0.6539 conf=0.4186
+[LANE] direction=straight path_state=blocked conf=0.4811
+[RISK] region=right level=high source=hidden conf=0.4811
+
+Sample 20: 61d9340c5ad8418dafe7a4af1b96e6b9
+[OBJ] class=class_1 pos=left depth=mid occ=visible importance=0.6531 conf=0.4895
+[OBJ] class=class_8 pos=left depth=mid occ=visible importance=0.6405 conf=0.5089
+[OBJ] class=class_7 pos=left depth=mid occ=visible importance=0.6401 conf=0.4936
+[OBJ] class=class_0 pos=center depth=near occ=occluded importance=0.6340 conf=0.4809
+[OBJ] class=class_8 pos=left depth=mid occ=visible importance=0.6199 conf=0.5231
+[LANE] direction=left path_state=clear conf=0.4609
+[RISK] region=front level=medium source=visible conf=0.4609

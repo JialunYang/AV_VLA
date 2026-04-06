@@ -1,0 +1,35 @@
+Sample token: a98fba72bde9433fb882032d18aedb2e
+
+Final prompt snippet:
+Scene summary:
+[OBJ] class=class_5 pos=left depth=mid occ=visible importance=0.5662 conf=0.4585
+[OBJ] class=class_8 pos=right depth=mid occ=visible importance=0.5184 conf=0.4942
+[OBJ] class=class_8 pos=right depth=mid occ=visible importance=0.5179 conf=0.4985
+[OBJ] class=class_8 pos=right depth=mid occ=visible importance=0.5142 conf=0.5347
+[OBJ] class=class_0 pos=right depth=mid occ=visible importance=0.5129 conf=0.4826
+[LANE] direction=left path_state=clear conf=0.5001
+[RISK] region=right level=low source=visible conf=0.5001
+
+These are frames from a video taken by a camera mounted in the front of a car. The images are taken at a 0.5 second interval. 
+        The scene is described as follows: As an autonomous driving labeller, I would describe the current drive scene based on the provided image and the past 5 seconds of camera footage. Here is the description:
+
+1. **Traffic Lights**: There are no visible traffic lights in the image. The scene appears to be a typical urban street with no immediate traffic signals.
+
+2. **Movements of Other Cars**:
+   - There are several cars on the road, including a black SUV on the left side, a silver car in the center, and a few other cars further down the road.
+   - The black SUV appears to be stationary or moving slowly, while the silver car. 
+        The identified critical objects are In the image, there are several road users that you should pay attention to as an autonomous driving labeller:
+
+1. **Pedestrians**:
+   - **Location**: On the sidewalks and near the crosswalks.
+   - **Description**: Pedestrians are walking along the sidewalks and crossing the street at the crosswalk. They are important to monitor because they can suddenly enter the road, especially near intersections and crosswalks.
+
+2. **Bicyclists**:
+   - **Location**: On the road, near the center of the image.
+   - **Description**: A bicyclist is riding along the road. B. 
+        The car's intent is Based on the image and the information provided:
+
+1. **Lane Ma
+
+Generated output snippet:
+[4.3, -0.5], [4.3, -0.5], [4.2, -0.6], [4.2, -0.6], [4.2, -0.7], [4.3, -0.6], [4.3, -0.6], [4.5, -0.5], [4.5, -0.2], [4.5, -0.1]

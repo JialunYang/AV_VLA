@@ -1,0 +1,17 @@
+{
+  "sample_token": "083240c8c70b44e4ac6fc7f267b1518f",
+  "image_embeds_shape": [
+    1824,
+    3584
+  ],
+  "scene_tokens": [
+    "[OBJ] class=class_8 pos=center depth=mid occ=occluded importance=0.7848 conf=0.5984",
+    "[OBJ] class=class_8 pos=center depth=mid occ=occluded importance=0.7827 conf=0.5872",
+    "[OBJ] class=class_8 pos=center depth=mid occ=occluded importance=0.7716 conf=0.5812",
+    "[OBJ] class=class_8 pos=center depth=far occ=occluded importance=0.7682 conf=0.6149",
+    "[OBJ] class=class_8 pos=center depth=mid occ=occluded importance=0.7563 conf=0.5753",
+    "[LANE] direction=right path_state=partially_blocked conf=0.5112",
+    "[RISK] region=right level=low source=visible conf=0.5112"
+  ],
+  "prompt_prefix": "Scene summary:\n[OBJ] class=class_8 pos=center depth=mid occ=occluded importance=0.7848 conf=0.5984\n[OBJ] class=class_8 pos=center depth=mid occ=occluded importance=0.7827 conf=0.5872\n[OBJ] class=class_8 pos=center depth=mid occ=occluded importance=0.7716 conf=0.5812\n[OBJ] class=class_8 pos=center depth=far occ=occluded importance=0.7682 conf=0.6149\n[OBJ] class=class_8 pos=center depth=mid occ=occluded importance=0.7563 conf=0.5753\n[LANE] direction=right path_state=partially_blocked conf=0.5112\n[RISK] region=right level=low source=visible conf=0.5112\n\n"
+}
