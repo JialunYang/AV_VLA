@@ -1,0 +1,32 @@
+Sample token: 4cf5d6c3f6ab42aab23f67b5a9782d1a
+
+Final prompt snippet:
+Scene summary:
+[OBJ] class=class_9 pos=center depth=far occ=visible importance=0.9276 conf=0.9963
+[OBJ] class=class_9 pos=left depth=near occ=visible importance=0.9120 conf=0.2834
+[OBJ] class=class_9 pos=center depth=near occ=visible importance=0.9105 conf=0.9874
+[OBJ] class=class_0 pos=center depth=near occ=visible importance=0.9089 conf=0.8997
+[OBJ] class=class_9 pos=center depth=far occ=visible importance=0.9079 conf=0.9867
+[LANE] direction=straight path_state=clear conf=0.8292
+[RISK] region=right level=low source=visible conf=0.5086
+
+These are frames from a video taken by a camera mounted in the front of a car. The images are taken at a 0.5 second interval. 
+        The scene is described as follows: As an autonomous driving labeller, I would describe the current drive scene based on the provided image and the past 5 seconds of camera footage. Here is the description:
+
+1. **Traffic Lights**: There are no visible traffic lights in the image.
+2. **Movements of Other Cars**: The image shows several cars parked along the street on both sides. There are no moving vehicles in the immediate vicinity.
+3. **Pedestrians**: There is one pedestrian visible on the right side of the image, walking on the sidewalk.
+4. **Lane Markingsings**: The road has clear double yellow lines in the center, indicating no. 
+        The identified critical objects are In the image, there are several road users that you should pay attention to as an autonomous driving labeller:
+
+1. **Pedestrians**:
+   - **Location**: Sidewalks on both sides of the street.
+   - **Description**: Pedestrians are walking along the sidewalks. It is important to monitor them because they can suddenly cross the street or enter the pedestrian crossing area, which could pose a risk to your vehicle.
+
+2. **Bicyclists**:
+   - **Location**: On the left side of the street, near the bike rack.
+   - **Description**: A bicyclist is riding along the. 
+        The car's intent is Based on the current image and the information pr
+
+Generated output snippet:
+[0.9, 0.0], [1.0, 0.6], [1.4, 0.0], [1.4, -0.0], [1.7, -0.2], [1.9, 0.1], [2.1, -0.0], [2.3, -0.1], [2.6, -0.1], [2.5, -0.2]

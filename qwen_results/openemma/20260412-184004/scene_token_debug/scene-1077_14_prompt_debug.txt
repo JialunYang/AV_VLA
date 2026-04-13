@@ -1,0 +1,32 @@
+Sample token: f2d48fe35d5646659dc339e1d36886f9
+
+Final prompt snippet:
+Scene summary:
+[OBJ] class=class_0 pos=center depth=near occ=visible importance=0.8960 conf=0.8748
+[OBJ] class=class_9 pos=left depth=near occ=visible importance=0.8498 conf=0.3430
+[OBJ] class=class_9 pos=left depth=near occ=visible importance=0.8445 conf=0.3349
+[OBJ] class=class_9 pos=left depth=near occ=visible importance=0.8437 conf=0.3969
+[OBJ] class=class_9 pos=left depth=near occ=visible importance=0.8367 conf=0.3922
+[LANE] direction=straight path_state=partially_blocked conf=0.7418
+[RISK] region=front level=medium source=visible conf=0.7669
+
+These are frames from a video taken by a camera mounted in the front of a car. The images are taken at a 0.5 second interval. 
+        The scene is described as follows: As an autonomous driving labeller, I would describe the drive scene based on the provided images. Here is the description:
+
+1. **Traffic Lights**: There are no visible traffic lights in the images.
+2. **Movements of Other Cars**: The car in front is moving forward, as indicated by the position of its taillights and the distance between the vehicles. Other cars are also visible in the distance, with their headlights on, indicating they are moving in the same direction.
+3. **Pedestrians**: There are no pedestrians visible in the images.
+4. **Lane Markingsings**: The lane markings are clearly and visible. 
+        The identified critical objects are In the image, there are several road users that you should pay attention to:
+
+1. **Car ahead**:
+   - **Location**: Directly ahead of your vehicle.
+   - **Description**: The car is driving in the same lane as you. It is important to monitor its speed and direction to ensure safe following distance and to react to any sudden braking or lane changes.
+
+2. **Vehicles in the opposite lane**:
+   - **Location**: Opposite side of the road.
+   - **Description**: These vehicles are coming towards you. It is crucial to be aware of their speed and any potential lane changes to avoid collisions. 
+        The car's intent is Ba
+
+Generated output snippet:
+[6.5, -0.1], [6.6, 0.0], [6.8, -0.0], [6.9, 0.0], [7.0, 0.0], [7.1, 0.0], [7.2, 0.0], [7.3, 0.0], [7.4, 0.0], [7.5, 0.0]

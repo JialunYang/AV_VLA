@@ -1,0 +1,36 @@
+Sample token: 5b03af7a953245b5a3b23191ed4da62a
+
+Final prompt snippet:
+Scene summary:
+[OBJ] class=class_1 pos=right depth=mid occ=visible importance=0.8374 conf=0.9872
+[OBJ] class=class_0 pos=right depth=near occ=occluded importance=0.8057 conf=0.9227
+[OBJ] class=class_1 pos=right depth=mid occ=visible importance=0.7985 conf=0.9687
+[OBJ] class=class_1 pos=center depth=mid occ=visible importance=0.7829 conf=0.8500
+[OBJ] class=class_1 pos=right depth=near occ=visible importance=0.7822 conf=0.5173
+[LANE] direction=straight path_state=clear conf=0.7330
+[RISK] region=front level=medium source=visible conf=0.6588
+
+These are frames from a video taken by a camera mounted in the front of a car. The images are taken at a 0.5 second interval. 
+        The scene is described as follows: As a autonomous driving labeller, I have access to the front-view camera images of a car taken at a 0.5 second interval over the past 5 seconds. Based on the images, here is a description of the drive scene:
+
+1. **Traffic Lights**: There are no visible traffic lights in the images.
+2. **Movements of Other Cars**:
+   - A silver car is parked on the left side of the street.
+   - A black car is driving ahead of the camera car.
+   - There are other cars parked or moving on the right side of the street.
+3. **Pedestrians**: There. 
+        The identified critical objects are In the image, there are several road users that you should pay attention to as an autonomous driving labeller:
+
+1. **Silver sedan on the left side of the road**:
+   - **Location**: On the left side of the road, slightly ahead of the black car.
+   - **Description**: This sedan is driving in the same lane as the black car. It is important to monitor its speed and direction to ensure safe overtaking or following.
+   - **Why it's important**: Proper spacing and maintaining a safe distance from this vehicle can prevent collisions and ensure smooth traffic flow.
+
+2. **Black car in front**:
+  . 
+        The car's intent is Based on the current image and the information provided:
+
+1. **Lane Markingings**: Th
+
+Generated output snippet:
+[3.9, 0.0], [3.3, -0.1], [2.1, 0.1], [2.1, -0.1], [1.5, -0.1], [0.9, -0.4], [0.8, -0.2], [0.8, -0.1], [0.9, 0.0], [1.0, 0.6]

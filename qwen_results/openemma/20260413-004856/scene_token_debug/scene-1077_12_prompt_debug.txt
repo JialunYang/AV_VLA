@@ -1,0 +1,32 @@
+Sample token: db0173c29e1e43d1b5535f48e541efdf
+
+Final prompt snippet:
+Scene summary:
+[OBJ] class=class_1 pos=right depth=far occ=visible importance=0.9475 conf=0.9410
+[OBJ] class=class_1 pos=right depth=far occ=visible importance=0.9400 conf=0.9046
+[OBJ] class=class_1 pos=right depth=mid occ=visible importance=0.9393 conf=0.9647
+[OBJ] class=class_1 pos=right depth=far occ=visible importance=0.9169 conf=0.7477
+[OBJ] class=class_0 pos=right depth=near occ=visible importance=0.9137 conf=0.8151
+[LANE] direction=straight path_state=partially_blocked conf=0.6943
+[RISK] region=front level=medium source=visible conf=0.7344
+
+These are frames from a video taken by a camera mounted in the front of a car. The images are taken at a 0.5 second interval. 
+        The scene is described as follows: As an autonomous driving labeller, I would describe the drive scene based on the provided images. Here is the description:
+
+1. **Traffic Lights**: There are no visible traffic lights in the images.
+2. **Movements of Other Cars**: The images show a car directly ahead, which appears to be moving at a moderate speed. There are also other cars visible in the distance, but they are not close enough to be considered as immediate threats.
+3. **Pedestrians**: There are no pedestrians visible in the images.
+4. **Lane Markingsings**: The lane markings are clearly and visible. The car is driving in the. 
+        The identified critical objects are In the image, there are several road users that you should pay attention to as an autonomous driving labeller:
+
+1. **Car ahead**:
+   - **Location**: Directly ahead on the road.
+   - **Description**: The car is driving in the same lane as you. It is important to monitor its speed and direction to ensure safe following and to react to any sudden braking or lane changes.
+
+2. **Vehicles on the right side**:
+   - **Location**: On the right side of the road.
+   - **Description**: These vehicles are traveling in the same direction as you. It is crucial to be aware of. 
+        The car's intent is Based on the current image and the
+
+Generated output snippet:
+[6.3, 0.0], [6.3, 0.0], [6.3, 0.0], [6.3, 0.0], [6.3, 0.0], [6.3, 0.0], [6.3, 0.0], [6.3, 0.0], [6.3, 0.0], [6.3, 0.0]

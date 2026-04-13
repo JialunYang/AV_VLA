@@ -1,0 +1,32 @@
+Sample token: 7ca3502caf394d6d9c0a80b822b3ff48
+
+Final prompt snippet:
+Scene summary:
+[OBJ] class=class_9 pos=left depth=near occ=visible importance=0.8546 conf=0.3292
+[OBJ] class=class_9 pos=left depth=near occ=visible importance=0.8495 conf=0.2739
+[OBJ] class=class_9 pos=left depth=near occ=visible importance=0.8435 conf=0.3681
+[OBJ] class=class_9 pos=left depth=near occ=visible importance=0.8365 conf=0.3274
+[OBJ] class=class_9 pos=left depth=near occ=visible importance=0.8363 conf=0.3696
+[LANE] direction=straight path_state=partially_blocked conf=0.7444
+[RISK] region=front level=medium source=visible conf=0.7785
+
+These are frames from a video taken by a camera mounted in the front of a car. The images are taken at a 0.5 second interval. 
+        The scene is described as follows: As an autonomous driving labeller, I would describe the drive scene based on the provided image and the information from the previous 5 seconds of images. Here is the description:
+
+1. **Traffic Lights**: There are no visible traffic lights in the image.
+2. **Movements of Other Cars**: There are several cars visible in the image. The car directly ahead is moving forward, and there are other cars in the distance, also moving forward.
+3. **Pedestrians**: There are no pedestrians visible in the image.
+4. **Lane Markings**: The lane markings are clearly visible. The car is driving in the center lane. 
+        The identified critical objects are In the image, there are several road users that you should pay attention to:
+
+1. **Red car ahead**:
+   - **Location**: Directly ahead of your vehicle.
+   - **Description**: The red car is driving in the same lane as you. It is important to monitor its speed and direction to ensure safe following distance and to be prepared for any sudden braking or lane changes.
+
+2. **White car on the right**:
+   - **Location**: In the right lane, slightly ahead of your vehicle.
+   - **Description**: The white car is driving in the same lane as you. It is important to monitor its. 
+        The car's intent is Based on the current image an
+
+Generated output snippet:
+[6.8, 0.0], [6.9, 0.0], [7.0, 0.0], [7.1, 0.0], [7.2, 0.0], [7.3, 0.0], [7.4, 0.0], [7.5, 0.0], [7.6, 0.0], [7.7, 0.0]

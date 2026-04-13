@@ -1,0 +1,32 @@
+Sample token: 2e96e4ef43624c3d9ae8fd5526444fa8
+
+Final prompt snippet:
+Scene summary:
+[OBJ] class=class_1 pos=right depth=far occ=visible importance=0.9620 conf=0.9394
+[OBJ] class=class_1 pos=right depth=mid occ=visible importance=0.9494 conf=0.9606
+[OBJ] class=class_1 pos=right depth=mid occ=visible importance=0.9260 conf=0.9785
+[OBJ] class=class_1 pos=right depth=far occ=visible importance=0.9210 conf=0.7539
+[OBJ] class=class_1 pos=right depth=far occ=visible importance=0.9153 conf=0.6667
+[LANE] direction=straight path_state=partially_blocked conf=0.6917
+[RISK] region=front level=medium source=visible conf=0.7435
+
+These are frames from a video taken by a camera mounted in the front of a car. The images are taken at a 0.5 second interval. 
+        The scene is described as follows: As an autonomous driving labeller, I would describe the drive scene based on the provided images. Here is the description:
+
+1. **Traffic Lights**: There are no visible traffic lights in the images.
+2. **Movements of Other Cars**: The car in front of you is moving forward, as indicated by the position of its taillights and the distance between you and the car. Other cars are also visible in the distance, with their headlights on, indicating they are moving in the same direction.
+3. **Pedestrians**: There are no pedestrians visible in the images.
+4. **Lane Markingsings**: The lane markings. 
+        The identified critical objects are In the provided image, there are several road users that you should pay attention to as an autonomous driving labeller. Here are three important road users to consider:
+
+1. **Car ahead**:
+   - **Location**: Directly ahead on the road.
+   - **Description**: The car is driving in the same lane as you. It is important to monitor its speed and direction to ensure safe following and to react to any sudden braking or lane changes.
+   - **Why it's important**: Ensuring a safe distance from the car ahead helps prevent collisions and allows for smooth traffic flow.
+
+2. **Cars on the right**:
+  . 
+        The car's intent is Based on the 
+
+Generated output snippet:
+[5.1, 0.2], [5.3, 0.1], [5.0, -0.0], [6.3, 0.0], [5.8, -0.1], [6.1, 0.0], [6.1, 0.0], [6.2, 0.0], [6.3, -0.0], [6.3, 0.0]

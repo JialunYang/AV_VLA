@@ -1,0 +1,17 @@
+{
+  "sample_token": "4cf5d6c3f6ab42aab23f67b5a9782d1a",
+  "image_embeds_shape": [
+    1824,
+    3584
+  ],
+  "scene_tokens": [
+    "[OBJ] class=class_1 pos=right depth=mid occ=visible importance=0.8839 conf=0.9956",
+    "[OBJ] class=class_1 pos=right depth=mid occ=visible importance=0.8313 conf=0.9813",
+    "[OBJ] class=class_1 pos=right depth=near occ=visible importance=0.8101 conf=0.4699",
+    "[OBJ] class=class_0 pos=right depth=near occ=occluded importance=0.8097 conf=0.9267",
+    "[OBJ] class=class_0 pos=right depth=near occ=visible importance=0.7983 conf=0.6234",
+    "[LANE] direction=straight path_state=clear conf=0.7845",
+    "[RISK] region=front level=low source=hidden conf=0.5502"
+  ],
+  "prompt_prefix": "Scene summary:\n[OBJ] class=class_1 pos=right depth=mid occ=visible importance=0.8839 conf=0.9956\n[OBJ] class=class_1 pos=right depth=mid occ=visible importance=0.8313 conf=0.9813\n[OBJ] class=class_1 pos=right depth=near occ=visible importance=0.8101 conf=0.4699\n[OBJ] class=class_0 pos=right depth=near occ=occluded importance=0.8097 conf=0.9267\n[OBJ] class=class_0 pos=right depth=near occ=visible importance=0.7983 conf=0.6234\n[LANE] direction=straight path_state=clear conf=0.7845\n[RISK] region=front level=low source=hidden conf=0.5502\n\n"
+}

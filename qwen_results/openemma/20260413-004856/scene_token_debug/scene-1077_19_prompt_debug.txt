@@ -1,0 +1,31 @@
+Sample token: 7bf1cef0e253474e847ee4c2eb955901
+
+Final prompt snippet:
+Scene summary:
+[OBJ] class=class_1 pos=right depth=mid occ=visible importance=0.9608 conf=0.9669
+[OBJ] class=class_1 pos=right depth=far occ=visible importance=0.9548 conf=0.9495
+[OBJ] class=class_1 pos=right depth=far occ=visible importance=0.9299 conf=0.7037
+[OBJ] class=class_1 pos=right depth=mid occ=visible importance=0.9220 conf=0.9694
+[OBJ] class=class_1 pos=right depth=far occ=visible importance=0.9036 conf=0.8164
+[LANE] direction=straight path_state=partially_blocked conf=0.6770
+[RISK] region=front level=medium source=visible conf=0.7474
+
+These are frames from a video taken by a camera mounted in the front of a car. The images are taken at a 0.5 second interval. 
+        The scene is described as follows: As an autonomous driving labeller, I would describe the drive scene based on the provided images. Here is the description:
+
+1. **Traffic Lights**: There are no visible traffic lights in the images.
+2. **Movements of Other Cars**: The images show a car directly ahead, which appears to be moving at a steady pace. There are also other cars visible in the distance, but they are not in the immediate vicinity.
+3. **Pedestrians**: There are no pedestrians visible in the images.
+4. **Lane Markings**: The lane markings are clearly visible. The road is divided into multiple lanes, and the car is. 
+        The identified critical objects are In the image, there are several road users that you should pay attention to as an autonomous driving labeller:
+
+1. **Vehicles ahead**:
+   - **Location**: The vehicle directly ahead of you is located in the center of the image, slightly to the right.
+   - **Description**: This vehicle is moving in the same direction as you. It is important to monitor its speed and direction to ensure safe following and to react to any sudden braking or lane changes.
+   - **Why it's important**: Proper spacing and reaction time are crucial to avoid collisions and maintain a safe driving.
+
+2. **Vehicles on the opposite lane. 
+        The car's intent
+
+Generated output snippet:
+[6.9, 0.2], [7.0, 0.1], [7.1, 0.1], [7.2, 0.1], [7.3, 0.1], [7.4, 0.1], [7.5, 0.1], [7.6, 0.1], [7.7, 0.1], [7.8, 0.1]

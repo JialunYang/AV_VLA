@@ -1,0 +1,37 @@
+Sample token: 0a0d6b8c2e884134a3b48df43d54c36a
+
+Final prompt snippet:
+Scene summary:
+[OBJ] class=class_1 pos=right depth=mid occ=visible importance=0.8546 conf=0.9922
+[OBJ] class=class_1 pos=right depth=mid occ=visible importance=0.8248 conf=0.9833
+[OBJ] class=class_0 pos=right depth=near occ=occluded importance=0.8006 conf=0.9377
+[OBJ] class=class_0 pos=center depth=mid occ=visible importance=0.7824 conf=0.8536
+[OBJ] class=class_1 pos=right depth=mid occ=visible importance=0.7452 conf=0.8783
+[LANE] direction=straight path_state=clear conf=0.7582
+[RISK] region=front level=low source=visible conf=0.5910
+
+These are frames from a video taken by a camera mounted in the front of a car. The images are taken at a 0.5 second interval. 
+        The scene is described as follows: As an autonomous driving labeller, I would describe the current drive scene based on the provided image and the historical data from the past 5 seconds:
+
+1. **Traffic Lights**: There are no visible traffic lights in the image.
+2. **Movements of Other Cars**:
+   - A black SUV is parked on the left side of the road.
+   - A silver sedan is parked on the right side of the road.
+   - There are no other vehicles in motion in the immediate vicinity.
+3. **Pedestrians**: There are no pedestrians visible in the image.
+4. **Lane Markings**: The road has clear lane. 
+        The identified critical objects are In the image, there are several road users that you should pay attention to as an autonomous driving labeller:
+
+1. **Black SUV (**
+   - **Location:** On the left side of the road, slightly ahead of the camera vehicle.
+   - **Description:** The black SUV is driving in the same lane as the camera vehicle. It is important to monitor its speed and direction to ensure safe overtaking or following.
+   - **Why it's important:** Ensuring safe distances and avoiding sudden lane changes or braking can prevent collisions.
+
+2. **Silver Sedan (**
+   - **Location:** On the right side of the road. 
+        The car's intent is Based on the current image and the information provided:
+
+1. **L
+
+Generated output snippet:
+[4.5, -0.5], [4.5, -0.2], [4.5, -0.1], [4.4, 0.1], [3.9, 0.0], [3.3, 0.1], [2.1, 0.1], [2.1, -0.1], [1.5, -0.1], [0.9, -0.4]

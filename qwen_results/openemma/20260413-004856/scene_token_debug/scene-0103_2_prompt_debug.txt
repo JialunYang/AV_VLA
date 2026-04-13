@@ -1,0 +1,38 @@
+Sample token: 796b1988dd254f74bf2fb19ba9c5b8c6
+
+Final prompt snippet:
+Scene summary:
+[OBJ] class=class_1 pos=right depth=mid occ=visible importance=0.8734 conf=0.9954
+[OBJ] class=class_1 pos=right depth=mid occ=visible importance=0.8515 conf=0.9879
+[OBJ] class=class_1 pos=center depth=mid occ=visible importance=0.7831 conf=0.8634
+[OBJ] class=class_12 pos=right depth=mid occ=visible importance=0.7774 conf=0.9453
+[OBJ] class=class_1 pos=right depth=mid occ=visible importance=0.7634 conf=0.5923
+[LANE] direction=straight path_state=clear conf=0.7917
+[RISK] region=front level=low source=hidden conf=0.5270
+
+These are frames from a video taken by a camera mounted in the front of a car. The images are taken at a 0.5 second interval. 
+        The scene is described as follows: As a autonomous driving labeller, I am observing the following details in the current drive scene:
+
+1. **Traffic Lights**: There are no visible traffic lights in the immediate vicinity of the car.
+2. **Movements of Other Cars**:
+   - A black SUV is driving ahead of the car on the left lane.
+   - Several cars are parked along the right side of the street.
+   - A silver car is driving ahead of the car on the right lane.
+3. **Pedestrians**: There are no pedestrians visible in the immediate vicinity of the car.
+4. **Lane Markingsings**:
+   - The car. 
+        The identified critical objects are In the image, there are several road users that you should pay attention to as an autonomous driving labeller:
+
+1. **Black SUV (**
+   - **Location:** On the left side of the road, slightly ahead of the camera vehicle.
+   - **Description:** The black SUV is driving in the same lane as the camera vehicle. It is important to monitor its speed and direction to ensure safe overtaking or following.
+   - **Why it's important:** Ensuring safe distances and avoiding sudden lane changes or braking can prevent collisions.
+
+2. **Silver Sedan (**
+   - **Location:** On the right side of the road. 
+        The car's intent is Based on the current image and the information provided:
+
+1. **Lane Markin
+
+Generated output snippet:
+[4.5, -0.5], [4.5, -0.2], [4.5, -0.1], [4.4, 0.1], [3.9, 0.0], [4.2, -0.6], [4.2, -0.6], [4.2, -0.7], [4.3, -0.6], [4.3, -0.6]

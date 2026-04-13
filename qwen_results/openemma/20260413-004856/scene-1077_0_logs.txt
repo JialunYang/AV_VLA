@@ -1,0 +1,19 @@
+Scene Description: As an autonomous driving labeller, I would describe the current drive scene based on the provided image and the information from the previous 5 seconds:
+
+1. **Traffic Lights**: There are no visible traffic lights in the image.
+2. **Movements of Other Cars**: The car in front of you appears to be moving at a steady pace. There are no other cars directly in your lane, but there are cars on the opposite side of the road.
+3. **Pedestrians**: There are no pedestrians visible in the image.
+4. **Lane Markingsings**: The lane markings are clearly visible. The road is divided into multiple
+Object Description: In the image, there are several road users that you should pay attention to:
+
+1. **Car ahead**:
+   - **Location**: Directly ahead on the road.
+   - **Description**: The car is driving ahead of you. It is important to monitor its speed and direction to ensure safe following and to react to any sudden braking or lane changes.
+
+2. **Cars on the right**:
+   - **Location**: To the right of the car ahead.
+   - **Description**: These cars are driving in the same lane as you. It is important to monitor their speed and any potential lane changes to avoid collisions and maintain a
+Intent Description: Based on the image and the information provided, the ego car appears to be in a straight lane with no immediate intention to turn left or right. The car is maintaining a steady speed and is not showing any signs of braking or accelerating significantly. The lane markings are clear, and there are no pedestrians or other vehicles directly in the path of the ego car.
+
+Given the current situation, the desired intent of the ego car is likely to maintain the current speed and continue straight ahead. There is no indication of a need to slow down or speed up, and the lane is clear for a smooth continuation of the journey.
+Average Displacement Error: 15.16121494498266
