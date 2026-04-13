@@ -51,7 +51,9 @@ OBS_LEN = 10
 FUT_LEN = 10
 TTL_LEN = OBS_LEN + FUT_LEN
 DEFAULT_SCENE_TOKEN_FILE = Path(__file__).resolve().parent.parent / "tokens_20_samples.txt"
+DEFAULT_SCENE_BRANCH_CHECKPOINT = REPO_ROOT / "training" / "scene_branch" / "scene_branch.pth"
 _SCENE_TOKEN_CACHE = None
+_SCENE_BRANCH_CACHE = None
 DEFAULT_DEBUG_DIR = REPO_ROOT / "qwen_results" / "scene_token_debug"
 
 
@@ -191,14 +193,52 @@ def extract_qwen_image_embeds(image_path, processor, model):
     return normalize_visual_tokens(image_embeds.float())
 
 
-def build_runtime_scene_summary(sample_token, image_path, processor, model, debug_dir=None):
-    image_embeds = extract_qwen_image_embeds(image_path, processor, model)
+def load_scene_specialist_branch(input_dim, device, checkpoint_path=DEFAULT_SCENE_BRANCH_CHECKPOINT):
+    global _SCENE_BRANCH_CACHE
+
+    checkpoint_path = Path(checkpoint_path)
+    if not checkpoint_path.exists():
+        raise FileNotFoundError(
+            f"SceneSpecialistBranch checkpoint not found at {checkpoint_path}"
+        )
+
+    cache_key = (str(checkpoint_path.resolve()), str(device), int(input_dim))
+    if _SCENE_BRANCH_CACHE is not None and _SCENE_BRANCH_CACHE["key"] == cache_key:
+        return _SCENE_BRANCH_CACHE["model"]
+
+    checkpoint = torch.load(checkpoint_path, map_location=device)
+
     specialist_branch = SceneSpecialistBranch(
-        input_dim=image_embeds.shape[-1],
+        input_dim=input_dim,
         hidden_dim=256,
-        num_classes=10,
-    ).to(device=image_embeds.device)
+        num_classes=18,
+    ).to(device)
+    specialist_branch.load_state_dict(checkpoint["model_state_dict"])
     specialist_branch.eval()
+    print("Loaded SceneSpecialistBranch checkpoint successfully")
+
+    _SCENE_BRANCH_CACHE = {
+        "key": cache_key,
+        "model": specialist_branch,
+    }
+    return specialist_branch
+
+
+def build_runtime_scene_summary(
+    sample_token,
+    image_path,
+    processor,
+    model,
+    scene_id=None,
+    debug_dir=None,
+    checkpoint_path=DEFAULT_SCENE_BRANCH_CHECKPOINT,
+):
+    image_embeds = extract_qwen_image_embeds(image_path, processor, model)
+    specialist_branch = load_scene_specialist_branch(
+        input_dim=image_embeds.shape[-1],
+        device=image_embeds.device,
+        checkpoint_path=checkpoint_path,
+    )
 
     with torch.inference_mode():
         specialist_outputs = specialist_branch(image_embeds)
@@ -221,7 +261,8 @@ def build_runtime_scene_summary(sample_token, image_path, processor, model, debu
     if debug_dir is not None:
         debug_dir = Path(debug_dir)
         debug_dir.mkdir(parents=True, exist_ok=True)
-        debug_path = debug_dir / f"{sample_token}_scene_summary.json"
+        file_id = scene_id if scene_id is not None else sample_token
+        debug_path = debug_dir / f"{file_id}_scene_summary.json"
         debug_path.write_text(json.dumps(debug_payload, indent=2), encoding="utf-8")
         print(f"Saved scene-token debug to {debug_path}")
 
@@ -229,13 +270,14 @@ def build_runtime_scene_summary(sample_token, image_path, processor, model, debu
     return prefix, debug_payload
 
 
-def save_prompt_and_output_debug(sample_token, prompt, result, debug_dir):
+def save_prompt_and_output_debug(sample_token, prompt, result, debug_dir, scene_id=None):
     if debug_dir is None:
         return
 
     debug_dir = Path(debug_dir)
     debug_dir.mkdir(parents=True, exist_ok=True)
-    debug_path = debug_dir / f"{sample_token}_prompt_debug.txt"
+    file_id = scene_id if scene_id is not None else sample_token
+    debug_path = debug_dir / f"{file_id}_prompt_debug.txt"
     prompt_snippet = prompt[:2000]
     result_snippet = (result or "")[:1000]
     debug_text = (
@@ -302,8 +344,10 @@ class SceneSpecialistBranch(nn.Module):
         self.risk_level_head = nn.Linear(hidden_dim, 3)
         self.risk_source_head = nn.Linear(hidden_dim, 2)
 
-        # Confidence head.
-        self.confidence_head = nn.Linear(hidden_dim, 1)
+        # Confidence heads.
+        self.obj_conf_head = nn.Linear(hidden_dim, 1)
+        self.lane_conf_head = nn.Linear(hidden_dim, 1)
+        self.risk_conf_head = nn.Linear(hidden_dim, 1)
 
     def _pool_scene_features(self, shared_features):
         """Pool token features into one scene feature for scene-level heads."""
@@ -372,11 +416,11 @@ class SceneSpecialistBranch(nn.Module):
             },
             "confidence": {
                 # Scalar confidence for each object token candidate.
-                "object_token_confidence": self.confidence_head(shared_features),
+                "object_token_confidence": self.obj_conf_head(shared_features),
                 # Scalar confidence for the pooled lane token candidate.
-                "lane_token_confidence": self.confidence_head(scene_features),
+                "lane_token_confidence": self.lane_conf_head(scene_features),
                 # Scalar confidence for the pooled risk token candidate.
-                "risk_token_confidence": self.confidence_head(scene_features),
+                "risk_token_confidence": self.risk_conf_head(scene_features),
             },
         }
 
@@ -552,7 +596,7 @@ def DescribeOrUpdateIntent(obs_images, prev_intent=None, processor=None, model=N
     return result
 
 
-def GenerateMotion(obs_images, obs_waypoints, obs_velocities, obs_curvatures, given_intent, sample_token=None, processor=None, model=None, tokenizer=None, args=None, debug_dir=None):
+def GenerateMotion(obs_images, obs_waypoints, obs_velocities, obs_curvatures, given_intent, sample_token=None, scene_id=None, processor=None, model=None, tokenizer=None, args=None, debug_dir=None):
     # assert len(obs_images) == len(obs_waypoints)
 
     scene_description, object_description, intent_description = None, None, None
@@ -599,7 +643,9 @@ def GenerateMotion(obs_images, obs_waypoints, obs_velocities, obs_curvatures, gi
                     image_path=obs_images,
                     processor=processor,
                     model=model,
+                    scene_id=scene_id,
                     debug_dir=debug_dir,
+                    checkpoint_path=args.scene_branch_checkpoint,
                 )
             except Exception as exc:
                 print(f"SceneSpecialistBranch runtime generation failed for {sample_token}: {exc}")
@@ -619,16 +665,21 @@ def GenerateMotion(obs_images, obs_waypoints, obs_velocities, obs_curvatures, gi
         result = vlm_inference(text=prompt, images=obs_images, sys_message=sys_message, processor=processor, model=model, tokenizer=tokenizer, args=args)
         if not "unable" in result and not "sorry" in result and "[" in result:
             break
-    save_prompt_and_output_debug(sample_token, prompt, result, debug_dir)
+    save_prompt_and_output_debug(sample_token, prompt, result, debug_dir, scene_id=scene_id)
     return result, scene_description, object_description, intent_description
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model-path", type=str, default="gpt")
+    parser.add_argument("--model-path", type=str, default="qwen")
     parser.add_argument("--plot", type=bool, default=True)
-    parser.add_argument("--dataroot", type=str, default='datasets/NuScenes')
+    parser.add_argument("--dataroot", type=str, default='datasets/nuscenes')
     parser.add_argument("--version", type=str, default='v1.0-mini')
     parser.add_argument("--method", type=str, default='openemma')
+    parser.add_argument(
+        "--scene-branch-checkpoint",
+        type=str,
+        default=str(DEFAULT_SCENE_BRANCH_CHECKPOINT),
+    )
     args = parser.parse_args()
 
     print(f"{args.model_path}")
@@ -800,6 +851,7 @@ if __name__ == '__main__':
             obs_ego_velocities = ego_velocities[i:i+OBS_LEN]
             obs_ego_curvatures = ego_curvatures[i:i+OBS_LEN]
             current_sample_token = sample_tokens[i + OBS_LEN - 1]
+            scene_id = f"{name}_{i}"
 
             # Get positions of the vehicle.
             obs_start_world = obs_ego_traj_world[0]
@@ -824,7 +876,7 @@ if __name__ == '__main__':
                 scene_description,
                 object_description,
                 updated_intent) = GenerateMotion(obs_images, obs_ego_traj_world, obs_ego_velocities,
-                                                obs_ego_curvatures, prev_intent, sample_token=current_sample_token, processor=processor, model=model, tokenizer=tokenizer, args=args, debug_dir=Path(timestamp) / "scene_token_debug")
+                                                obs_ego_curvatures, prev_intent, sample_token=current_sample_token, scene_id=scene_id, processor=processor, model=model, tokenizer=tokenizer, args=args, debug_dir=Path(timestamp) / "scene_token_debug")
 
                 # Process the output.
                 prev_intent = updated_intent  # Stateful intent

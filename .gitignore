@@ -11,9 +11,23 @@ __pycache__/
 
 # Environment
 .env
+.codex
 
 # OpenEMMA
 OpenEMMA/
 
 # Dataset
 datasets/
+
+# Task
+task3.md
+task4.md
+
+# results
+qwen_results/openemma/20260412-184004
+qwen_results/openemma/20260413-004856
+
+# embeddings
+training/embeddings
+training/scene_branch_23
+

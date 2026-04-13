@@ -1,0 +1,102 @@
+{
+  "epochs": 10,
+  "learning_rate": 0.0001,
+  "num_samples": 404,
+  "epoch_losses": [
+    7.735288998868206,
+    7.524660256829592,
+    7.270849444488488,
+    7.041261546092458,
+    6.849553222113316,
+    6.655491257067954,
+    6.499623497523884,
+    6.344267134619232,
+    6.193682033826809,
+    6.066772897644799
+  ],
+  "epoch_logs": [
+    {
+      "epoch": 1,
+      "total_loss": 7.735288998868206,
+      "object_loss": 4.744980952822336,
+      "lane_loss": 1.943357334426134,
+      "risk_loss": 2.949677949199582,
+      "confidence_loss": 1.0875807752703677
+    },
+    {
+      "epoch": 2,
+      "total_loss": 7.524660256829592,
+      "object_loss": 4.561233272646914,
+      "lane_loss": 2.0458158213313262,
+      "risk_loss": 2.816471589673864,
+      "confidence_loss": 1.0645665536717612
+    },
+    {
+      "epoch": 3,
+      "total_loss": 7.270849444488488,
+      "object_loss": 4.388841989606914,
+      "lane_loss": 1.9394966238501048,
+      "risk_loss": 2.756462754589496,
+      "confidence_loss": 1.068055596239496
+    },
+    {
+      "epoch": 4,
+      "total_loss": 7.041261546092458,
+      "object_loss": 4.290421727860328,
+      "lane_loss": 1.8078760959134244,
+      "risk_loss": 2.677714067225409,
+      "confidence_loss": 1.016089495087024
+    },
+    {
+      "epoch": 5,
+      "total_loss": 6.849553222113316,
+      "object_loss": 4.210189517771844,
+      "lane_loss": 1.676622984285402,
+      "risk_loss": 2.587385653859318,
+      "confidence_loss": 1.014718816643304
+    },
+    {
+      "epoch": 6,
+      "total_loss": 6.655491257067954,
+      "object_loss": 4.129250077327879,
+      "lane_loss": 1.578414797340289,
+      "risk_loss": 2.494575367263048,
+      "confidence_loss": 0.9794922085976837
+    },
+    {
+      "epoch": 7,
+      "total_loss": 6.499623497523884,
+      "object_loss": 4.0662310678179905,
+      "lane_loss": 1.4948890120676248,
+      "risk_loss": 2.404067588840971,
+      "confidence_loss": 0.9678282727404396
+    },
+    {
+      "epoch": 8,
+      "total_loss": 6.344267134619232,
+      "object_loss": 4.002128888474832,
+      "lane_loss": 1.4126369798242455,
+      "risk_loss": 2.3192391694329753,
+      "confidence_loss": 0.9524003835302768
+    },
+    {
+      "epoch": 9,
+      "total_loss": 6.193682033826809,
+      "object_loss": 3.9335752017427197,
+      "lane_loss": 1.350869773343058,
+      "risk_loss": 2.2398924445456796,
+      "confidence_loss": 0.9294514774095894
+    },
+    {
+      "epoch": 10,
+      "total_loss": 6.066772897644799,
+      "object_loss": 3.877859912886478,
+      "lane_loss": 1.2921392586414178,
+      "risk_loss": 2.1750952959945886,
+      "confidence_loss": 0.9105914241016502
+    }
+  ],
+  "checkpoint": "training/outputs/scene_branch/scene_branch.pth",
+  "loss_curve": "training/outputs/scene_branch/loss_curve.png",
+  "embeddings_dir": "training/embeddings"
+}

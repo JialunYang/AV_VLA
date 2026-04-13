@@ -1,1 +1,3 @@
-from transformers import MllamaForConditionalGeneration, AutoProcessor, Qwen2VLForConditionalGeneration, Qwen2_5_VLForConditionalGeneration, AutoTokenizer
+import torch
+checkpoint = torch.load("training/scene_branch/scene_branch.pth")
+print(checkpoint["category_mapping"])
